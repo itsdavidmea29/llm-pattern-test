@@ -1,25 +1,26 @@
 #!/usr/bin/env python3
 """LLM pattern test: sends each context level of a ticket to its own stripped-down Claude Code, all at once.
 
-  python run_test.py run herd-7121                  # every level in tests/herd-7121, at the same time
-  python run_test.py run herd-7121 herd-7969 --reps 3
-  python run_test.py run herd-7121 --levels some,full      # only these levels
-  python run_test.py run herd-7121 --no-logs               # context alone, no log: what the ticket text gives
-  python run_test.py run herd-7121 --model sonnet --effort medium   # this run only; config.json is unchanged
-  python run_test.py run herd-7121 --repo ~/code/the-service   # Claude may also read that clone, read-only
-  python run_test.py files herd-7121                 # which logs would be sent, which files are skipped
-  python run_test.py show herd-7121 --level full     # print exactly what Claude would receive
-  python run_test.py upload                          # push runs the sheet doesn't have yet
+  python run_test.py run badprod_server                  # every level in tests/badprod_server, at the same time
+  python run_test.py run badprod_server goodprov_server --reps 3
+  python run_test.py run badprod_server --levels some           # only these levels
+  python run_test.py run badprod_server --no-logs               # context alone, no log: what the ticket text gives
+  python run_test.py run badprod_server --model claude-sonnet-5-5 --effort medium   # this run only
+  python run_test.py run badprod_server --repo ~/code/the-service   # Claude may also read that clone, read-only
+  python run_test.py files badprod_server                 # which logs would be sent, which files are skipped
+  python run_test.py show badprod_server --level some     # print exactly what Claude would receive
+  python run_test.py upload                               # push runs the sheet doesn't have yet
 
-Attaching the ticket's files (copies into tests/<ticket>/, never changes the originals):
-  python run_test.py attach herd-7121 ~/Downloads/phones.txt ~/Downloads/pbx.zip      # as they are
-  python run_test.py attach herd-7121 ~/Downloads/pbx.log --grep '0004f2aabbcc' --as one-phone.log
-  python run_test.py attach herd-7121 ~/Downloads/pbx.log* --between "2026-02-13 01:10" "2026-02-13 01:20" --as window.log
+Attaching the ticket's files (copies into tests/<test>/, never changes the originals):
+  python run_test.py attach badprod_server attachments/badprod_server/app.log attachments/badprod_server/boot.log
+  python run_test.py attach badprod_server attachments/badprod_server/*.log --grep '64167f0082e9' --as one-phone.log
+  python run_test.py attach <test> server.log* --between "2026-02-13 01:10" "2026-02-13 01:20" --as window.log
+      (--between needs YYYY-MM-DD HH:MM timestamps; phone logs count seconds since boot, so use --grep there)
 
-Adding a test: make tests/<ticket>/ and put in it
+Adding a test: make tests/<test>/ and put in it
   the logs             log files and/or the ticket's archives (.zip, .tar.gz, .tgz, .gz), as downloaded
-  <ticket>-some.txt    optional: a little context, such as phone, firmware and the reported symptom
-  <ticket>-full.txt    optional: the ticket's history up to before the cause was found, never the resolution
+  <test>-some.txt      optional: a little context, such as phone, firmware and the reported symptom
+  <test>-full.txt      optional: the ticket's history up to before the cause was found, never the resolution
 Every file in the folder other than the two context files is sent, so attach = put the file in the folder.
 The raw level is the logs alone; some and full put their context in front of the same logs.
 The expected answer stays in the sheet, never in this folder.
