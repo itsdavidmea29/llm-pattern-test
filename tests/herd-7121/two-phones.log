@@ -1,0 +1,631 @@
+v: SIP/2.0/UDP 162.221.238.45:5199;branch=z9hG4bK6a0e8bd86966f3666e386f0ed5d8dc8b, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK7c43935b4DDCBFEC
+Proxy-Authorization: Digest username="110000008157579",realm="vo.packet8.net",nonce="a5531adf7f2dc843cb4e33a47b934c97",qop=auth,cnonce="9rlDzDt8KizOuyZ",nc=00000001,uri="sip:8x8.com:5199",response="f9bedd7dcfcda5ab90194616a7170e2c",algorithm=MD5
+Record-Route: <sip:162.221.238.45:5199;lr>
+i: 4395496011e175807b06d8cddf593ecd
+Expires: 660
+t: <sip:110000008157579@8x8.com:5199>
+l: 0
+
+
+ - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173971 tx.p-seg=
+ founded:null - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000008157579@8x8.com:5199>:"Jessica Phillips" <sip:110000008157579@8x8.com:5199>;tag=16D5B3F1-ECEF2FFF:4395496011e175807b06d8cddf593ecd hashCode:1202620123callhandler map :120 - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  register(sip:110000008157579@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.3.5156) - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  log:  firstRegister false  - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] create mEndpoint(sip:110000008157579@75.208.33.254) - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 162.221.238.45:5199;branch=z9hG4bK6a0e8bd86966f3666e386f0ed5d8dc8b - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: got via[1]:SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK7c43935b4DDCBFEC - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: got received ip:75.208.33.254 - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  publish sip registration, expires:660 - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: Lei: set 75.208.33.254 PORT: 5060 EXTN_LABEL: Jessica Phillips MAC:64167f593ecd  - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isReferToVmSupported false - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+ founded:null - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+[2026-02-13 00:39:40,902] [WT1045 processing(208646)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173973 tx.p-seg=90173971
+v: SIP/2.0/UDP 162.221.238.45:5199;branch=z9hG4bK6a0e8bd86966f3666e386f0ed5d8dc8b, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK7c43935b4DDCBFEC
+
+
+ - tx.id=6e6d7a3e-1fc0-46dd-9cd5-b558def1aa48 tx.seg=90173974 tx.p-seg=90173973
+ - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174299 tx.p-seg=
+ founded:null - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000108805581@8x8.com:5199>:"Natalie Peterie" <sip:110000108805581@8x8.com:5199>;tag=42505E4A-EE3E6348:68278a2a5087c7ee5322a553337d91cb hashCode:1227813217callhandler map :120 - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  register(sip:110000108805581@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.6.2656) - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  log:  firstRegister false  - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581] create mEndpoint(sip:110000108805581@8.29.107.5:42150;transport=TLS) - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 129.159.80.41:5132;branch=z9hG4bK394018b2e033fb87ec695406fdd8b32f - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: got via[1]:SIP/2.0/TLS 10.224.42.13:42150;rport=42150;received=8.29.107.5;branch=z9hG4bK2678e0a4BFDBACBF - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: got received ip:8.29.107.5 - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  publish sip registration, expires:660 - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: Lei: set 8.29.107.5 PORT: 42150 EXTN_LABEL: Natalie Peterie MAC:64167f7d91cb  - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,704] [WT978 processing(208680)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isReferToVmSupported false - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+ founded:null - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+[2026-02-13 00:41:11,705] [WT978 processing(208680)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174301 tx.p-seg=90174299
+ - tx.id=8f69995b-e5b3-4f3f-a1fb-2fbb2dc6ee01 tx.seg=90174302 tx.p-seg=90174301
+v: SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bK939da7d464a71cf77470287fdd5a34c2, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK565a01af70ABB1D0
+Proxy-Authorization: Digest username="110000008157579",realm="vo.packet8.net",nonce="582a32c00a116befac6857ae78ffdc05",qop=auth,cnonce="iqvSCGrOHOYQQvs",nc=00000001,uri="sip:8x8.com:5199",response="f517a9586ac7bb6fbc03533415f4bb30",algorithm=MD5
+Record-Route: <sip:129.159.80.27:5199;lr>
+i: 4395496011e175807b06d8cddf593ecd
+Expires: 660
+t: <sip:110000008157579@8x8.com:5199>
+l: 0
+
+
+ - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176169 tx.p-seg=
+ founded:null - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000008157579@8x8.com:5199>:"Jessica Phillips" <sip:110000008157579@8x8.com:5199>;tag=16D5B3F1-ECEF2FFF:4395496011e175807b06d8cddf593ecd hashCode:1202620123callhandler map :120 - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  register(sip:110000008157579@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.3.5156) - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  log:  firstRegister false  - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] create mEndpoint(sip:110000008157579@75.208.33.254) - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bK939da7d464a71cf77470287fdd5a34c2 - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: got via[1]:SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK565a01af70ABB1D0 - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: got received ip:75.208.33.254 - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  publish sip registration, expires:660 - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: Lei: set 75.208.33.254 PORT: 5060 EXTN_LABEL: Jessica Phillips MAC:64167f593ecd  - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isReferToVmSupported false - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+ founded:null - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+[2026-02-13 00:49:40,903] [WT1055 processing(149243)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176171 tx.p-seg=90176169
+v: SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bK939da7d464a71cf77470287fdd5a34c2, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK565a01af70ABB1D0
+
+
+ - tx.id=9fca515d-c54c-4f42-ac81-307f1fc98d36 tx.seg=90176172 tx.p-seg=90176171
+ - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176553 tx.p-seg=
+ founded:null - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000108805581@8x8.com:5199>:"Natalie Peterie" <sip:110000108805581@8x8.com:5199>;tag=42505E4A-EE3E6348:68278a2a5087c7ee5322a553337d91cb hashCode:1227813217callhandler map :120 - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  register(sip:110000108805581@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.6.2656) - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  log:  firstRegister false  - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581] create mEndpoint(sip:110000108805581@8.29.107.5:42150;transport=TLS) - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 129.159.80.41:5132;branch=z9hG4bK08a0f5b47240082f4175d005622e0c3d - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: got via[1]:SIP/2.0/TLS 10.224.42.13:42150;rport=42150;received=8.29.107.5;branch=z9hG4bK28dac01d7AE1DBC3 - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: got received ip:8.29.107.5 - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  publish sip registration, expires:660 - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: Lei: set 8.29.107.5 PORT: 42150 EXTN_LABEL: Natalie Peterie MAC:64167f7d91cb  - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isReferToVmSupported false - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+ founded:null - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+[2026-02-13 00:51:11,694] [WT1055 processing(149330)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176555 tx.p-seg=90176553
+ - tx.id=55f569c2-bae6-4b2b-8635-5db515f12c11 tx.seg=90176556 tx.p-seg=90176555
+v: SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bKd28a4ccb9b40704710f3cbfbd1ec16b7, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK9e0a610364663314
+Proxy-Authorization: Digest username="110000008157579",realm="vo.packet8.net",nonce="3e9a9164df0200140b66ed4848b018a0",qop=auth,cnonce="v/QpCRAOfHAWowU",nc=00000001,uri="sip:8x8.com:5199",response="270a270fc4562660e25128de51be608b",algorithm=MD5
+Record-Route: <sip:129.159.80.27:5199;lr>
+i: 4395496011e175807b06d8cddf593ecd
+Expires: 660
+t: <sip:110000008157579@8x8.com:5199>
+l: 0
+
+
+ - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178400 tx.p-seg=
+ founded:null - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000008157579@8x8.com:5199>:"Jessica Phillips" <sip:110000008157579@8x8.com:5199>;tag=16D5B3F1-ECEF2FFF:4395496011e175807b06d8cddf593ecd hashCode:1202620123callhandler map :120 - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  register(sip:110000008157579@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.3.5156) - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  log:  firstRegister false  - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] create mEndpoint(sip:110000008157579@75.208.33.254) - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bKd28a4ccb9b40704710f3cbfbd1ec16b7 - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: got via[1]:SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK9e0a610364663314 - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: got received ip:75.208.33.254 - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  publish sip registration, expires:660 - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: Lei: set 75.208.33.254 PORT: 5060 EXTN_LABEL: Jessica Phillips MAC:64167f593ecd  - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isReferToVmSupported false - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+ founded:null - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+[2026-02-13 00:59:40,872] [WT1152 processing(243867)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178402 tx.p-seg=90178400
+v: SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bKd28a4ccb9b40704710f3cbfbd1ec16b7, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK9e0a610364663314
+
+
+ - tx.id=6ebda11e-4aa5-4101-af6d-54e3f0920224 tx.seg=90178403 tx.p-seg=90178402
+ - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178822 tx.p-seg=
+ founded:null - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000108805581@8x8.com:5199>:"Natalie Peterie" <sip:110000108805581@8x8.com:5199>;tag=42505E4A-EE3E6348:68278a2a5087c7ee5322a553337d91cb hashCode:1227813217callhandler map :120 - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  register(sip:110000108805581@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.6.2656) - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  log:  firstRegister false  - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581] create mEndpoint(sip:110000108805581@8.29.107.5:42150;transport=TLS) - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 129.159.80.41:5132;branch=z9hG4bKd8f93c8ce4969a0fa775f3be9c0ef918 - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: got via[1]:SIP/2.0/TLS 10.224.42.13:42150;rport=42150;received=8.29.107.5;branch=z9hG4bK3f85dd3fE5409F93 - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: got received ip:8.29.107.5 - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  publish sip registration, expires:660 - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: Lei: set 8.29.107.5 PORT: 42150 EXTN_LABEL: Natalie Peterie MAC:64167f7d91cb  - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isVOMDevModel false pnSupported setting true - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  isReferToVmSupported false - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+ founded:null - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+[2026-02-13 01:01:11,671] [WT1152 processing(243934)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178824 tx.p-seg=90178822
+ - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90178825 tx.p-seg=90178824
+[2026-02-13 01:09:18,456] [CommandHandler_0] INFO  dbregistry: [Aastra-cfg]:dispatcher queue task:SyncIPPhonePhoneTask this.macAddress:64167f7d91cb device:CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null taskDelay:5 expireTime:1770973763456 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:18,456] [CommandHandler_0] INFO  dbregistry: [Aastra-cfg]:Add cfg file task:SyncIPPhonePhoneTask this.macAddress:64167f7d91cb device:CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null taskDelay:5 expireTime:1770973763456 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:18,456] [CommandHandler_0] INFO  dbregistry: DbRegistryManager.updateAddress sent restart event to device 64167f7d91cb - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:19,911] [Thread-321] INFO  log: TclCommand:generateIPPhoneConfigFile -macAddress 64167f7d91cb -restart false failed. Successfully submitted a task to generate config file for the IPPhone - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:19,911] [Thread-321] INFO  log: [PROV_TASK]: Failed exec generateIPPhoneConfigFile -macAddress 64167f7d91cb -restart false - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:19,911] [Asynchronous Logging] INFO  system.trace: found resource for alarm: Alarm(time=20260213_010919_911, origin=/X/fx071pbx93b-eq/verticalservproin/Provisioning(type=Component), resource=/X/fx071pbx93b-eq/verticalservproin, id=7501, key=268806, severity=Warning, description="A provisioning task ran into some error", data="Failed to exec command:generateIPPhoneConfigFile -macAddress 64167f7d91cb -restart false, tclResult:Successfully submitted a task to generate config file for the IPPhone") 
+Resouceline: intraswitch;A provisioning task ran into some error;WARNING - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:19,912] [WT1160 processing(209988)] INFO  log: load device labels from config/64167f7d91cb.cfg - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:19,912] [WT1160 processing(209988)] INFO  log: [IPPhone-cfg]: Create configuration file for polycom vvx250 device: 64167f7d91cb - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:21,690] [WT1160 processing(209988)] INFO  log: Successfully Generated the device config file for macAddr: 64167f7d91cb - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:23,456] [Timer-0] INFO  log: Task:SyncIPPhonePhoneTask this.macAddress:64167f7d91cb device:CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null taskDelay:5 expireTime:1770973763456 term:null is not expired yet although timer notification task is waken up - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:23,728] [Thread-3772] INFO  dbregistry: [IPPhone-cfg]: tag task:SyncIPPhonePhoneTask this.macAddress:64167f7d91cb device:CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null taskDelay:5 expireTime:1770973763456 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:23,728] [Thread-3772] INFO  dbregistry: [Aastra-cfg]:Got next cfg file task:SyncIPPhonePhoneTask this.macAddress:64167f7d91cb device:CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null taskDelay:5 expireTime:1770973763456 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:23,728] [Thread-3772] INFO  dbregistry: [Aastra-cfg]:executing CfgFile task:SyncIPPhonePhoneTask this.macAddress:64167f7d91cb device:CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null taskDelay:5 expireTime:1770973763456 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:23,731] [WT1077 processing(183332)] INFO  log: load device labels from config/64167f7d91cb.cfg - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:23,731] [WT1077 processing(183332)] INFO  log: [IPPhone-cfg]: Create configuration file for polycom vvx250 device: 64167f7d91cb - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:23,731] [WT1077 processing(183332)] INFO  log: Device: CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null, Device.getDeviceRegion(): null, Device.getOwningProvider(): CfgProviderImpl;uid=481080927; tch=false;ins=false;del=false;deleted=false; peer=[provider: null]; n=verticalservproin; on=null, Device.getOwningProvider().getDefaultRegion():  - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:25,633] [WT1077 processing(183332)] INFO  log: Successfully Generated the device config file for macAddr: 64167f7d91cb - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:25,636] [WT1077 processing(183332)] INFO  dbregistry: [Aastra-cfg]:Execution task:SyncIPPhonePhoneTask this.macAddress:64167f7d91cb device:CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null taskDelay:5 expireTime:1770973763456 term:null done - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:25,637] [WT1077 processing(183332)] INFO  dbregistry: [Aastra-cfg]: remove task tag for:SyncIPPhonePhoneTask this.macAddress:64167f7d91cb device:CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null taskDelay:5 expireTime:1770973763456 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:09:28,456] [Timer-0] INFO  dbregistry: [Aastra-cfg]: timer notification sent to wakeup task handler for :SyncIPPhonePhoneTask this.macAddress:64167f7d91cb device:CfgIPPhoneDeviceImpl;uid=-1720694026; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=985021840; on=null taskDelay:5 expireTime:1770973763456 term:null - tx.id= tx.seg= tx.p-seg=
+v: SIP/2.0/UDP 162.221.236.154:5199;branch=z9hG4bK0d9dc7a14ea63f32e9df3c5376a6be4e, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK18a68cdb5025F8EF
+Proxy-Authorization: Digest username="110000008157579",realm="vo.packet8.net",nonce="e9455e45763eb5cc4f166a22fbb669df",qop=auth,cnonce="b8vrJWbdLjEa3wU",nc=00000001,uri="sip:8x8.com:5199",response="a74006770104ee7bca14a938f939430c",algorithm=MD5
+Record-Route: <sip:162.221.236.154:5199;lr>
+i: 4395496011e175807b06d8cddf593ecd
+Expires: 660
+t: <sip:110000008157579@8x8.com:5199>
+l: 0
+
+
+ - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181528 tx.p-seg=
+ founded:null - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000008157579@8x8.com:5199>:"Jessica Phillips" <sip:110000008157579@8x8.com:5199>;tag=16D5B3F1-ECEF2FFF:4395496011e175807b06d8cddf593ecd hashCode:1202620123callhandler map :122 - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  register(sip:110000008157579@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.3.5156) - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  log:  firstRegister false  - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] create mEndpoint(sip:110000008157579@75.208.33.254) - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 162.221.236.154:5199;branch=z9hG4bK0d9dc7a14ea63f32e9df3c5376a6be4e - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: got via[1]:SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK18a68cdb5025F8EF - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: got received ip:75.208.33.254 - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  publish sip registration, expires:660 - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: Lei: set 75.208.33.254 PORT: 5060 EXTN_LABEL: Jessica Phillips MAC:64167f593ecd  - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isReferToVmSupported false - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+ founded:null - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+[2026-02-13 01:09:40,933] [WT1045 processing(209544)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181530 tx.p-seg=90181528
+v: SIP/2.0/UDP 162.221.236.154:5199;branch=z9hG4bK0d9dc7a14ea63f32e9df3c5376a6be4e, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK18a68cdb5025F8EF
+
+
+ - tx.id=8f2a755d-8a29-4c06-acc5-b29e9d43e22c tx.seg=90181531 tx.p-seg=90181530
+[2026-02-13 01:09:45,637] [WT1111 processing(200262)] INFO  dbregistry: [IPPhone-cfg]: send NOTIFY check-sync for IPPhone device:64167f7d91cb primaryId:110000108805581 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:11:26,632] [WT1144 processing(146767)] INFO  handler.operator: requestedURI: sip:110000008157579@75.208.33.254, mEndpoint:sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+ requestedURI = sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:11:27,632] [WT1045 processing(209845)] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+NOTIFY sip:110000008157579@75.208.33.254 SIP/2.0
+Route: <sip:162.221.236.154:5199;lr>
+m: sip:110000008157579@8x8.com:5199
+User-Agent: Intraswitch/SP17.4.585 SCF-7 Engine/0.2.8
+CSeq: 894698 NOTIFY
+Call-Info: 
+f: <sip:110000008157579@8x8.com:5199>;tag=4dfca3d1-31e6-7aad-f6af-0473323e4a8e
+Max-Forwards: 70
+o: message-summary
+v: SIP/2.0/UDP 192.84.18.153:5528;branch=z9hG4bKc45a1071-1d60-da74-f4fa-6f22340bd101
+i: 64131dca-4284-99a2-eaa0-b5e8584049e6@192.84.18.153
+c: application/simple-message-summary
+Subscription-State: active
+t: sip:110000008157579@8x8.com:5199
+l: 43
+Allow: INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, OPTIONS, SUBSCRIBE, INFO
+
+Messages-Waiting: no
+Voice-Message: 0/29
+
+ - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:12:11,672] [WT1144 processing(146983)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  unregister(sip:110000108805581@8.29.107.5:42150;transport=TLS) - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+[2026-02-13 01:12:11,672] [WT1144 processing(146983)] INFO  handler.operator: clear subscription for non-BLA line... - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+ to null - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+[2026-02-13 01:12:11,672] [WT1144 processing(146983)] INFO  log: ---- Terminal 110000108805581 / 0908 ------ OUT OF SERVICE - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+[2026-02-13 01:12:11,672] [WT1144 processing(146983)] INFO  jtapi.operator: [MED] checkIPA 110000108805581, 110000108805581, 0908, 110000108805581 - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+[2026-02-13 01:12:11,672] [WT1144 processing(146983)] WARN  media.PhoneTerminalImpl: Ringer component not found. - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+[2026-02-13 01:12:11,672] [WT1144 processing(146983)] INFO  cce.info: INFO ===== extn 0908 false ===== - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+[2026-02-13 01:12:11,672] [WT1144 processing(146983)] INFO  handler.operator: [PHA] [HSIP: [0908] / 110000108805581]  from sip:110000108805581@8x8.com:5199 no push notification logic, always unbound. - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+[2026-02-13 01:12:11,672] [WT1144 processing(146983)] INFO  handler.operator: From sip:110000108805581@8x8.com:5199 address 110000108805581 - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+[2026-02-13 01:12:11,672] [WT1144 processing(146983)] INFO  cce.info: INFO ===== [CellRedirect] tcl command Group size:1 ===== - tx.id=76f2b257-4e18-43d0-9e29-37658d441207 tx.seg=90182925 tx.p-seg=90178824
+[2026-02-13 01:15:49,561] [CommandHandler_0] INFO  dbregistry: [Aastra-cfg]:dispatcher queue task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:49,561] [CommandHandler_0] INFO  dbregistry: [Aastra-cfg]:Add cfg file task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:49,561] [CommandHandler_0] INFO  dbregistry: DbRegistryManager.updateAddress sent restart event to device 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,084] [Thread-321] INFO  log: TclCommand:generateIPPhoneConfigFile -macAddress 64167f593ecd -restart false failed. Successfully submitted a task to generate config file for the IPPhone - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,084] [Thread-321] INFO  log: [PROV_TASK]: Failed exec generateIPPhoneConfigFile -macAddress 64167f593ecd -restart false - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,084] [Asynchronous Logging] INFO  system.trace: found resource for alarm: Alarm(time=20260213_011551_084, origin=/X/fx071pbx93b-eq/verticalservproin/Provisioning(type=Component), resource=/X/fx071pbx93b-eq/verticalservproin, id=7501, key=269196, severity=Warning, description="A provisioning task ran into some error", data="Failed to exec command:generateIPPhoneConfigFile -macAddress 64167f593ecd -restart false, tclResult:Successfully submitted a task to generate config file for the IPPhone") 
+Resouceline: intraswitch;A provisioning task ran into some error;WARNING - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,085] [WT1111 processing(201027)] INFO  log: load device labels from config/64167f593ecd.cfg - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,085] [WT1111 processing(201027)] INFO  log: [IPPhone-cfg]: Create configuration file for polycom vvx250 device: 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:52,634] [Thread-321] INFO  handler.operator: requestedURI: sip:110000008157579@75.208.33.254, mEndpoint:sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:52,635] [Thread-321] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:52,954] [WT1111 processing(201027)] INFO  log: Successfully Generated the device config file for macAddr: 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:53,635] [WT1137 processing(193818)] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+NOTIFY sip:110000008157579@75.208.33.254 SIP/2.0
+Route: <sip:162.221.236.154:5199;lr>
+m: sip:110000008157579@8x8.com:5199
+User-Agent: Intraswitch/SP17.4.585 SCF-7 Engine/0.2.8
+CSeq: 894949 NOTIFY
+Call-Info: 
+f: <sip:110000008157579@8x8.com:5199>;tag=84104503-0319-539d-8ae8-893821278778
+Max-Forwards: 70
+o: check-sync
+v: SIP/2.0/UDP 192.84.18.153:5528;branch=z9hG4bK920487c7-d974-2c44-5a3c-b868f67cc08f
+i: 56bb884a-a39e-03b9-b9f8-b183a9026ab0@192.84.18.153
+t: sip:110000008157579@8x8.com:5199
+l: 0
+Allow: INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, OPTIONS, SUBSCRIBE, INFO
+
+
+ - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,561] [Timer-0] INFO  log: Task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null is not expired yet although timer notification task is waken up - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,902] [Thread-3772] INFO  dbregistry: [IPPhone-cfg]: tag task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,902] [Thread-3772] INFO  dbregistry: [Aastra-cfg]:Got next cfg file task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,902] [Thread-3772] INFO  dbregistry: [Aastra-cfg]:executing CfgFile task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,904] [WT1137 processing(193825)] INFO  log: load device labels from config/64167f593ecd.cfg - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,904] [WT1137 processing(193825)] INFO  log: [IPPhone-cfg]: Create configuration file for polycom vvx250 device: 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,904] [WT1137 processing(193825)] INFO  log: Device: CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null, Device.getDeviceRegion(): null, Device.getOwningProvider(): CfgProviderImpl;uid=481080927; tch=false;ins=false;del=false;deleted=false; peer=[provider: null]; n=verticalservproin; on=null, Device.getOwningProvider().getDefaultRegion():  - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:56,644] [WT1137 processing(193825)] INFO  log: Successfully Generated the device config file for macAddr: 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:56,648] [WT1137 processing(193825)] INFO  dbregistry: [Aastra-cfg]:Execution task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null done - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:56,648] [WT1137 processing(193825)] INFO  dbregistry: [Aastra-cfg]: remove task tag for:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:59,561] [Timer-0] INFO  dbregistry: [Aastra-cfg]: timer notification sent to wakeup task handler for :SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:16,648] [WT1121 processing(237802)] INFO  handler.operator: requestedURI: sip:110000008157579@75.208.33.254, mEndpoint:sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:16,648] [WT1121 processing(237802)] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:16,648] [WT1121 processing(237802)] INFO  dbregistry: [IPPhone-cfg]: send NOTIFY check-sync for IPPhone device:64167f593ecd primaryId:110000008157579 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:17,648] [WT1121 processing(237808)] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+NOTIFY sip:110000008157579@75.208.33.254 SIP/2.0
+Route: <sip:162.221.236.154:5199;lr>
+m: sip:110000008157579@8x8.com:5199
+User-Agent: Intraswitch/SP17.4.585 SCF-7 Engine/0.2.8
+CSeq: 894960 NOTIFY
+Call-Info: 
+f: <sip:110000008157579@8x8.com:5199>;tag=75a409f4-17df-8449-0e82-a645f47bc8d7
+Max-Forwards: 70
+o: check-sync
+v: SIP/2.0/UDP 192.84.18.153:5528;branch=z9hG4bKd98cfb9a-99b0-237a-7868-8a693c325eba
+i: 5549bbd6-c53c-233e-e1cd-1992dbbbf9e8@192.84.18.153
+t: sip:110000008157579@8x8.com:5199
+l: 0
+Allow: INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, OPTIONS, SUBSCRIBE, INFO
+
+
+ - tx.id= tx.seg= tx.p-seg=
+v: SIP/2.0/UDP 162.221.236.154:5199;branch=z9hG4bK65e8828a75e00e58a11197774be725dc, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bKe4149817A39556A2
+Proxy-Authorization: Digest username="110000008157579",realm="vo.packet8.net",nonce="8c6eaee16236b77627b508749c2bdb3f",qop=auth,cnonce="lnts97Pm6wTn8iA",nc=00000001,uri="sip:8x8.com:5199",response="7349b6a0f1ca7f761dffddb16aba88c3",algorithm=MD5
+Record-Route: <sip:162.221.236.154:5199;lr>
+i: 815b284bd83cdd06f4deb0738e593ecd
+Expires: 660
+t: <sip:110000008157579@8x8.com:5199>
+l: 0
+
+
+ - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184762 tx.p-seg=
+ founded:null - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000008157579@8x8.com:5199>:"Jessica Phillips" <sip:110000008157579@8x8.com:5199>;tag=5071FFF2-A66C72E4:815b284bd83cdd06f4deb0738e593ecd hashCode:-1578309279callhandler map :127 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  register(sip:110000008157579@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.3.5156) - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  log: [PHA] [HSIP: [1735] / 110000008157579] : reboot is detected, mRegFromTag:16D5B3F1-ECEF2FFF mRegCallID:4395496011e175807b06d8cddf593ecd request fromTag:5071FFF2-A66C72E4 callID:815b284bd83cdd06f4deb0738e593ecd - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  warning reboote is detected and ignored - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  log:  firstRegister true  - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  endpoint mSupportedCodec is reset to null - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] .resetSupportedCodec() supportedCodec - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] create mEndpoint(sip:110000008157579@75.208.33.254) - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 162.221.236.154:5199;branch=z9hG4bK65e8828a75e00e58a11197774be725dc - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: got via[1]:SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bKe4149817A39556A2 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: got received ip:75.208.33.254 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  endpoint is in service already, out-of-dialog setMessageWaitingIndicator :true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: Lei: set 75.208.33.254 port 5060 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: Lei: set 75.208.33.254 port 5060 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  publish sip registration, expires:660 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: Lei: set 75.208.33.254 PORT: 5060 EXTN_LABEL: Jessica Phillips MAC:64167f593ecd  - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isReferToVmSupported false - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+ founded:null - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+v: SIP/2.0/UDP 162.221.236.154:5199;branch=z9hG4bK65e8828a75e00e58a11197774be725dc, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bKe4149817A39556A2
+
+
+ - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184765 tx.p-seg=90184764
+[2026-02-13 01:16:36,894] [WT1122 processing(249563)] INFO  handler.operator: requestedURI: sip:110000008157579@75.208.33.254, mEndpoint:sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+ requestedURI = sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:37,894] [WT1101 processing(205220)] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+NOTIFY sip:110000008157579@75.208.33.254 SIP/2.0
+Route: <sip:162.221.236.154:5199;lr>
+m: sip:110000008157579@8x8.com:5199
+User-Agent: Intraswitch/SP17.4.585 SCF-7 Engine/0.2.8
+CSeq: 894970 NOTIFY
+Call-Info: 
+f: <sip:110000008157579@8x8.com:5199>;tag=818160ee-8ea6-de51-8b0f-6dd0eed66fe3
+Max-Forwards: 70
+o: message-summary
+v: SIP/2.0/UDP 192.84.18.153:5528;branch=z9hG4bK279b4008-a54e-6687-9448-e68a974c0f7d
+i: fd60443d-aa73-87af-3acf-3cccbd800392@192.84.18.153
+c: application/simple-message-summary
+Subscription-State: active
+t: sip:110000008157579@8x8.com:5199
+l: 43
+Allow: INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, OPTIONS, SUBSCRIBE, INFO
+
+Messages-Waiting: no
+Voice-Message: 0/29
+
+ - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:49,561] [CommandHandler_0] INFO  dbregistry: [Aastra-cfg]:dispatcher queue task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:49,561] [CommandHandler_0] INFO  dbregistry: [Aastra-cfg]:Add cfg file task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:49,561] [CommandHandler_0] INFO  dbregistry: DbRegistryManager.updateAddress sent restart event to device 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,084] [Thread-321] INFO  log: TclCommand:generateIPPhoneConfigFile -macAddress 64167f593ecd -restart false failed. Successfully submitted a task to generate config file for the IPPhone - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,084] [Thread-321] INFO  log: [PROV_TASK]: Failed exec generateIPPhoneConfigFile -macAddress 64167f593ecd -restart false - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,084] [Asynchronous Logging] INFO  system.trace: found resource for alarm: Alarm(time=20260213_011551_084, origin=/X/fx071pbx93b-eq/verticalservproin/Provisioning(type=Component), resource=/X/fx071pbx93b-eq/verticalservproin, id=7501, key=269196, severity=Warning, description="A provisioning task ran into some error", data="Failed to exec command:generateIPPhoneConfigFile -macAddress 64167f593ecd -restart false, tclResult:Successfully submitted a task to generate config file for the IPPhone") 
+Resouceline: intraswitch;A provisioning task ran into some error;WARNING - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,085] [WT1111 processing(201027)] INFO  log: load device labels from config/64167f593ecd.cfg - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:51,085] [WT1111 processing(201027)] INFO  log: [IPPhone-cfg]: Create configuration file for polycom vvx250 device: 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:52,634] [Thread-321] INFO  handler.operator: requestedURI: sip:110000008157579@75.208.33.254, mEndpoint:sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:52,635] [Thread-321] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:52,954] [WT1111 processing(201027)] INFO  log: Successfully Generated the device config file for macAddr: 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:53,635] [WT1137 processing(193818)] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+NOTIFY sip:110000008157579@75.208.33.254 SIP/2.0
+Route: <sip:162.221.236.154:5199;lr>
+m: sip:110000008157579@8x8.com:5199
+User-Agent: Intraswitch/SP17.4.585 SCF-7 Engine/0.2.8
+CSeq: 894949 NOTIFY
+Call-Info: 
+f: <sip:110000008157579@8x8.com:5199>;tag=84104503-0319-539d-8ae8-893821278778
+Max-Forwards: 70
+o: check-sync
+v: SIP/2.0/UDP 192.84.18.153:5528;branch=z9hG4bK920487c7-d974-2c44-5a3c-b868f67cc08f
+i: 56bb884a-a39e-03b9-b9f8-b183a9026ab0@192.84.18.153
+t: sip:110000008157579@8x8.com:5199
+l: 0
+Allow: INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, OPTIONS, SUBSCRIBE, INFO
+
+
+ - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,561] [Timer-0] INFO  log: Task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null is not expired yet although timer notification task is waken up - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,902] [Thread-3772] INFO  dbregistry: [IPPhone-cfg]: tag task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,902] [Thread-3772] INFO  dbregistry: [Aastra-cfg]:Got next cfg file task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,902] [Thread-3772] INFO  dbregistry: [Aastra-cfg]:executing CfgFile task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,904] [WT1137 processing(193825)] INFO  log: load device labels from config/64167f593ecd.cfg - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,904] [WT1137 processing(193825)] INFO  log: [IPPhone-cfg]: Create configuration file for polycom vvx250 device: 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:54,904] [WT1137 processing(193825)] INFO  log: Device: CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null, Device.getDeviceRegion(): null, Device.getOwningProvider(): CfgProviderImpl;uid=481080927; tch=false;ins=false;del=false;deleted=false; peer=[provider: null]; n=verticalservproin; on=null, Device.getOwningProvider().getDefaultRegion():  - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:56,644] [WT1137 processing(193825)] INFO  log: Successfully Generated the device config file for macAddr: 64167f593ecd - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:56,648] [WT1137 processing(193825)] INFO  dbregistry: [Aastra-cfg]:Execution task:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null done - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:56,648] [WT1137 processing(193825)] INFO  dbregistry: [Aastra-cfg]: remove task tag for:SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:15:59,561] [Timer-0] INFO  dbregistry: [Aastra-cfg]: timer notification sent to wakeup task handler for :SyncIPPhonePhoneTask this.macAddress:64167f593ecd device:CfgIPPhoneDeviceImpl;uid=1015756233; tch=false;ins=false;del=false;deleted=false; peer=[ipPhoneDevice: null]; n=158028591; on=null taskDelay:5 expireTime:1770974154561 term:null - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:16,648] [WT1121 processing(237802)] INFO  handler.operator: requestedURI: sip:110000008157579@75.208.33.254, mEndpoint:sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:16,648] [WT1121 processing(237802)] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:16,648] [WT1121 processing(237802)] INFO  dbregistry: [IPPhone-cfg]: send NOTIFY check-sync for IPPhone device:64167f593ecd primaryId:110000008157579 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:17,648] [WT1121 processing(237808)] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+NOTIFY sip:110000008157579@75.208.33.254 SIP/2.0
+Route: <sip:162.221.236.154:5199;lr>
+m: sip:110000008157579@8x8.com:5199
+User-Agent: Intraswitch/SP17.4.585 SCF-7 Engine/0.2.8
+CSeq: 894960 NOTIFY
+Call-Info: 
+f: <sip:110000008157579@8x8.com:5199>;tag=75a409f4-17df-8449-0e82-a645f47bc8d7
+Max-Forwards: 70
+o: check-sync
+v: SIP/2.0/UDP 192.84.18.153:5528;branch=z9hG4bKd98cfb9a-99b0-237a-7868-8a693c325eba
+i: 5549bbd6-c53c-233e-e1cd-1992dbbbf9e8@192.84.18.153
+t: sip:110000008157579@8x8.com:5199
+l: 0
+Allow: INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, OPTIONS, SUBSCRIBE, INFO
+
+
+ - tx.id= tx.seg= tx.p-seg=
+v: SIP/2.0/UDP 162.221.236.154:5199;branch=z9hG4bK65e8828a75e00e58a11197774be725dc, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bKe4149817A39556A2
+Proxy-Authorization: Digest username="110000008157579",realm="vo.packet8.net",nonce="8c6eaee16236b77627b508749c2bdb3f",qop=auth,cnonce="lnts97Pm6wTn8iA",nc=00000001,uri="sip:8x8.com:5199",response="7349b6a0f1ca7f761dffddb16aba88c3",algorithm=MD5
+Record-Route: <sip:162.221.236.154:5199;lr>
+i: 815b284bd83cdd06f4deb0738e593ecd
+Expires: 660
+t: <sip:110000008157579@8x8.com:5199>
+l: 0
+
+
+ - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184762 tx.p-seg=
+ founded:null - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000008157579@8x8.com:5199>:"Jessica Phillips" <sip:110000008157579@8x8.com:5199>;tag=5071FFF2-A66C72E4:815b284bd83cdd06f4deb0738e593ecd hashCode:-1578309279callhandler map :127 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  register(sip:110000008157579@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.3.5156) - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  log: [PHA] [HSIP: [1735] / 110000008157579] : reboot is detected, mRegFromTag:16D5B3F1-ECEF2FFF mRegCallID:4395496011e175807b06d8cddf593ecd request fromTag:5071FFF2-A66C72E4 callID:815b284bd83cdd06f4deb0738e593ecd - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  warning reboote is detected and ignored - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  log:  firstRegister true  - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  endpoint mSupportedCodec is reset to null - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] .resetSupportedCodec() supportedCodec - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] create mEndpoint(sip:110000008157579@75.208.33.254) - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 162.221.236.154:5199;branch=z9hG4bK65e8828a75e00e58a11197774be725dc - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: got via[1]:SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bKe4149817A39556A2 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: got received ip:75.208.33.254 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  endpoint is in service already, out-of-dialog setMessageWaitingIndicator :true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: Lei: set 75.208.33.254 port 5060 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: Lei: set 75.208.33.254 port 5060 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  publish sip registration, expires:660 - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: Lei: set 75.208.33.254 PORT: 5060 EXTN_LABEL: Jessica Phillips MAC:64167f593ecd  - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isReferToVmSupported false - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+ founded:null - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+[2026-02-13 01:16:36,891] [WT1101 processing(205217)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184764 tx.p-seg=90184762
+v: SIP/2.0/UDP 162.221.236.154:5199;branch=z9hG4bK65e8828a75e00e58a11197774be725dc, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bKe4149817A39556A2
+
+
+ - tx.id=0ac8f908-ce00-49d2-88c7-78d6ffd223b6 tx.seg=90184765 tx.p-seg=90184764
+[2026-02-13 01:16:36,894] [WT1122 processing(249563)] INFO  handler.operator: requestedURI: sip:110000008157579@75.208.33.254, mEndpoint:sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+ requestedURI = sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:16:37,894] [WT1101 processing(205220)] INFO  handler.operator: get remoteURI from request sip:110000008157579@75.208.33.254 - tx.id= tx.seg= tx.p-seg=
+NOTIFY sip:110000008157579@75.208.33.254 SIP/2.0
+Route: <sip:162.221.236.154:5199;lr>
+m: sip:110000008157579@8x8.com:5199
+User-Agent: Intraswitch/SP17.4.585 SCF-7 Engine/0.2.8
+CSeq: 894970 NOTIFY
+Call-Info: 
+f: <sip:110000008157579@8x8.com:5199>;tag=818160ee-8ea6-de51-8b0f-6dd0eed66fe3
+Max-Forwards: 70
+o: message-summary
+v: SIP/2.0/UDP 192.84.18.153:5528;branch=z9hG4bK279b4008-a54e-6687-9448-e68a974c0f7d
+i: fd60443d-aa73-87af-3acf-3cccbd800392@192.84.18.153
+c: application/simple-message-summary
+Subscription-State: active
+t: sip:110000008157579@8x8.com:5199
+l: 43
+Allow: INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, OPTIONS, SUBSCRIBE, INFO
+
+Messages-Waiting: no
+Voice-Message: 0/29
+
+ - tx.id= tx.seg= tx.p-seg=
+v: SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bK86c012a947e61b39f742fdf2f6bec6ed, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK109c07fcB35871EC
+Proxy-Authorization: Digest username="110000008157579",realm="vo.packet8.net",nonce="f7f740cd4cebde751fac6987cd080fed",qop=auth,cnonce="f1ZTDDzgn9z3990",nc=00000001,uri="sip:8x8.com:5199",response="7fa1fc3611932269fddc7a5cd952e72e",algorithm=MD5
+Record-Route: <sip:129.159.80.27:5199;lr>
+i: 815b284bd83cdd06f4deb0738e593ecd
+Expires: 660
+t: <sip:110000008157579@8x8.com:5199>
+l: 0
+
+
+ - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187087 tx.p-seg=
+ founded:null - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,898] [WT1121 processing(238222)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000008157579@8x8.com:5199>:"Jessica Phillips" <sip:110000008157579@8x8.com:5199>;tag=5071FFF2-A66C72E4:815b284bd83cdd06f4deb0738e593ecd hashCode:-1578309279callhandler map :121 - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,898] [WT1121 processing(238222)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,898] [WT1121 processing(238222)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,898] [WT1121 processing(238222)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  register(sip:110000008157579@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.3.5156) - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  log:  firstRegister false  - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] create mEndpoint(sip:110000008157579@75.208.33.254) - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bK86c012a947e61b39f742fdf2f6bec6ed - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: got via[1]:SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK109c07fcB35871EC - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: got received ip:75.208.33.254 - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  publish sip registration, expires:660 - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: Lei: set 75.208.33.254 PORT: 5060 EXTN_LABEL: Jessica Phillips MAC:64167f593ecd  - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isReferToVmSupported false - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+ founded:null - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+[2026-02-13 01:26:36,899] [WT1121 processing(238222)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187089 tx.p-seg=90187087
+v: SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bK86c012a947e61b39f742fdf2f6bec6ed, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bK109c07fcB35871EC
+
+
+ - tx.id=39816657-8b6b-4432-83ce-c037e5c2e052 tx.seg=90187090 tx.p-seg=90187089
+v: SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bK6ea21c2a097c0f440653de9eae5f0373, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bKb6d5f50a9780E24
+Proxy-Authorization: Digest username="110000008157579",realm="vo.packet8.net",nonce="e89a7954af82c189b8053834132b5b0a",qop=auth,cnonce="d8f1Nfw7jC2h4vc",nc=00000001,uri="sip:8x8.com:5199",response="f36e912ddd6e3866d5644277072b61eb",algorithm=MD5
+Record-Route: <sip:129.159.80.27:5199;lr>
+i: 815b284bd83cdd06f4deb0738e593ecd
+Expires: 660
+t: <sip:110000008157579@8x8.com:5199>
+l: 0
+
+
+ - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188920 tx.p-seg=
+ founded:null - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  sip.trace: No callhandler found with mLeg: <sip:110000008157579@8x8.com:5199>:"Jessica Phillips" <sip:110000008157579@8x8.com:5199>;tag=5071FFF2-A66C72E4:815b284bd83cdd06f4deb0738e593ecd hashCode:-1578309279callhandler map :121 - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155aserverState:3,  remoteServerIp: null, isMultiBackupSupport:true  - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a got expires=660 - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a REGISTER expires 660 - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: com.netergynet.protocolhandler.sip.Handler$Callback@113155a cancel register timeout:true - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  register(sip:110000008157579@8x8.com:5199, PolycomVVX-VVX_250-UA/6.4.3.5156) - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  log:  firstRegister false  - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: isRegisterReplicationRequest:false  - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  sip.trace:  isSipRegistrationReplicationRequest: true - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579] create mEndpoint(sip:110000008157579@75.208.33.254) - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: got via[0]:SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bK6ea21c2a097c0f440653de9eae5f0373 - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: got via[1]:SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bKb6d5f50a9780E24 - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: got received ip:75.208.33.254 - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  publish sip registration, expires:660 - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: Lei: set 75.208.33.254 PORT: 5060 EXTN_LABEL: Jessica Phillips MAC:64167f593ecd  - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isVOMDevModel false pnSupported setting true - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  handler.operator: [PHA] [HSIP: [1735] / 110000008157579]  isReferToVmSupported false - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+ founded:null - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+[2026-02-13 01:36:36,838] [WT1121 processing(238449)] INFO  impl.MicrometerMetricsDataBridgeImpl: Increment sipMessage counter - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188922 tx.p-seg=90188920
+v: SIP/2.0/UDP 129.159.80.27:5199;branch=z9hG4bK6ea21c2a097c0f440653de9eae5f0373, SIP/2.0/UDP 192.168.1.155;rport=5060;received=75.208.33.254;branch=z9hG4bKb6d5f50a9780E24
+
+
+ - tx.id=8c7c0b9a-1d25-4dd5-add0-51a9f8e990da tx.seg=90188923 tx.p-seg=90188922
+[2026-02-13 01:39:28,660] [Thread-321] INFO  log: TclCommand:generateIPPhoneConfigFile -macAddress 64167f7d91cb -restart false failed. Successfully submitted a task to generate config file for the IPPhone - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:39:28,660] [Thread-321] INFO  log: [PROV_TASK]: Failed exec generateIPPhoneConfigFile -macAddress 64167f7d91cb -restart false - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:39:28,660] [Asynchronous Logging] INFO  system.trace: found resource for alarm: Alarm(time=20260213_013928_660, origin=/X/fx071pbx93b-eq/verticalservproin/Provisioning(type=Component), resource=/X/fx071pbx93b-eq/verticalservproin, id=7501, key=269462, severity=Warning, description="A provisioning task ran into some error", data="Failed to exec command:generateIPPhoneConfigFile -macAddress 64167f7d91cb -restart false, tclResult:Successfully submitted a task to generate config file for the IPPhone") 
+Resouceline: intraswitch;A provisioning task ran into some error;WARNING - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:39:28,662] [WT1055 processing(150552)] INFO  log: load device labels from config/64167f7d91cb.cfg - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:39:28,662] [WT1055 processing(150552)] INFO  log: [IPPhone-cfg]: Create configuration file for polycom vvx250 device: 64167f7d91cb - tx.id= tx.seg= tx.p-seg=
+[2026-02-13 01:39:30,367] [WT1055 processing(150552)] INFO  log: Successfully Generated the device config file for macAddr: 64167f7d91cb - tx.id= tx.seg= tx.p-seg=

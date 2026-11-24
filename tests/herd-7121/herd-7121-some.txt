@@ -1,0 +1,10 @@
+Phone: Poly VVX 250, firmware 6.4.6.
+
+Reported symptom: the phone's SIP password was changed on the provisioning side, and afterwards the phone went offline and stopped registering. Putting the old password back brings the phone online again.
+
+What the ticket's attachments show. They are PBX server logs from the night of the change, plus lists of the phones involved. No logs from the phones were attached.
+- 125 phones on one customer PBX had their password changed in the same batch. 97 of them went offline and were rolled back to the old password.
+- For a phone that went offline, the PBX logged the password change, generated a new configuration file (the configuration service answered 200 OK), and sent the phone a SIP NOTIFY check-sync. The phone answered 200 OK to the NOTIFY.
+- On that phone, the check-sync went out about 0.2 seconds before the new configuration file had finished generating. On a phone that kept working, the check-sync went out after the file was ready.
+- The password change also started its own configuration generation, and the PBX sent a second check-sync about 20 seconds later. So each phone received two generations and two check-syncs.
+- The PBX logged "ILLEGAL ENDING state" after every check-sync NOTIFY, for phones that kept working as well as for phones that went offline. The logs show no other errors or exceptions.

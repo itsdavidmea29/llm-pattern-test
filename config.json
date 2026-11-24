@@ -1,0 +1,11 @@
+{
+  "spreadsheet_id": "14XcekmtS6C3jRU8Kq6lSZXK50cyDGH7J0PXfO_chwLk",
+  "worksheet": "Results",
+  "sheet_tab_id": 777001,
+  "upload_via": "claude",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "prompt": "p1",
+  "timeout_s": 600,
+  "max_log_chars": 800000
+}

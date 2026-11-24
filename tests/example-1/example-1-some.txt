@@ -1,0 +1,2 @@
+Phone: VVX 250, firmware 6.4.6.
+Reported symptom: the phone shows "Unregistered" after a provisioning change.

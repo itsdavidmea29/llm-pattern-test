@@ -1,0 +1,19 @@
+Phone: Poly VVX 250, firmware 6.4.6.
+
+Reported symptom: the phone's SIP password was changed on the provisioning side, and afterwards the phone went offline and stopped registering. Putting the old password back brings the phone online again.
+
+What the ticket's attachments show. They are PBX server logs from the night of the change, plus lists of the phones involved. No logs from the phones were attached.
+- 125 phones on one customer PBX had their password changed in the same batch. 97 of them went offline and were rolled back to the old password.
+- For a phone that went offline, the PBX logged the password change, generated a new configuration file (the configuration service answered 200 OK), and sent the phone a SIP NOTIFY check-sync. The phone answered 200 OK to the NOTIFY.
+- On that phone, the check-sync went out about 0.2 seconds before the new configuration file had finished generating. On a phone that kept working, the check-sync went out after the file was ready.
+- The password change also started its own configuration generation, and the PBX sent a second check-sync about 20 seconds later. So each phone received two generations and two check-syncs.
+- The PBX logged "ILLEGAL ENDING state" after every check-sync NOTIFY, for phones that kept working as well as for phones that went offline. The logs show no other errors or exceptions.
+
+Ticket history so far:
+- The change was part of a batch rotation of SIP passwords across many customers' Poly phones, done because of fraud. For each phone, a script ran three steps 1.5 seconds apart: change the SIP password in the database, generate the phone's configuration file, and send a check-sync. The phones were not told to reboot. The team planned to run the same script on about 25,000 phones.
+- The phones went offline 15 to 20 minutes after the script finished. Nobody rebooted them by hand, because the change ran out of hours. The person running the change reported that the offline phones were still trying to register with the old password, while the database held the new one. Running the script again with the old passwords brought them back.
+- The PBX team proposed raising the delay between steps from 1.5 to 3 seconds, then recommended removing the script's own generate and check-sync steps, since the password change already does both.
+- The phone vendor's team said that a phone given two check-syncs without a reboot fetches its configuration files twice. With a reboot requested, the phone ignores the second check-sync.
+- The PBX team checked the "ILLEGAL ENDING state" message and found it harmless. They found no fault on the PBX side and passed the ticket to the device team.
+- Someone asked whether a phone could try to register between the password change and the check-sync, fail, and get stuck.
+- The device team's latest view: for this customer the phone registers, answers the check-sync, but then never contacts the provisioning server. They suspect something in the customer's local network, note that many of the affected phones run old firmware, and say they need logs from one of the phones to go further.

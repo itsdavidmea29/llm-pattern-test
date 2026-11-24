@@ -1,0 +1,3 @@
+Phone: VVX 250, firmware 6.4.6.
+Reported symptom: the phone shows "Unregistered" after a provisioning change.
+Ticket history: support rebooted the phone twice, no change. The PBX shows the extension as active.
