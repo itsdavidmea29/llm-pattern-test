@@ -6,6 +6,7 @@
   python run_test.py run herd-7121 --levels some,full      # only these levels
   python run_test.py run herd-7121 --no-logs               # context alone, no log: what the ticket text gives
   python run_test.py run herd-7121 --model sonnet --effort medium   # this run only; config.json is unchanged
+  python run_test.py run herd-7121 --repo ~/code/the-service   # Claude may also read that clone, read-only
   python run_test.py files herd-7121                 # which logs would be sent, which files are skipped
   python run_test.py show herd-7121 --level full     # print exactly what Claude would receive
   python run_test.py upload                          # push runs the sheet doesn't have yet
@@ -32,6 +33,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 import tarfile
 import tempfile
@@ -68,6 +70,8 @@ ANSWER_SCHEMA = {
         },
         "quoted_lines": {"type": "array", "items": {"type": "string"}},
         "fix": {"type": "string"},
+        # Only filled on --repo runs: code is cited here, so quoted_lines stays log lines that check_quotes can verify.
+        "code_references": {"type": "array", "items": {"type": "string"}},
     },
     "required": ["problem_found", "causes", "quoted_lines", "fix"],
     "additionalProperties": False,
@@ -84,7 +88,15 @@ HEADERS = [
     "Quoted lines", "Quoted lines found", "Quotes not in log",
     "Right cause rank", "Fix right?", "Invented a problem?", "Notes",
     "Log files", "Log chars",  # added after Summary was built: kept last so Summary's column letters don't move
+    "Repo", "Code references",  # --repo runs only, added last for the same reason
 ]
+
+REPO_TOOLS = "Read,Grep,Glob"  # read-only: no Edit, Write or Bash, so the sandbox can't change or run anything
+REPO_NOTE = """
+
+You can also read the source code of the service the phones talk to, in {path}, with the Read, Grep and Glob tools.
+Use it to confirm how the service handles what the logs show. quoted_lines must still be log lines only. Put the
+code you relied on in code_references, one entry per place, as path:line followed by what it does."""
 
 
 # ---------- reading a test ----------
@@ -333,12 +345,25 @@ def seconds(ms):
 
 def claude_cmd(cfg: dict, system_prompt: str) -> list:
     # --safe-mode drops CLAUDE.md, skills, plugins, hooks and MCP servers; --tools "" leaves Claude no tools at all.
-    return ["claude", "-p", "--safe-mode", "--tools", "",
+    # With a repo, the only tools are the three read-only ones, the only extra folder is the repo, and dontAsk
+    # refuses anything else instead of waiting for a permission answer nobody will give.
+    tools = ["--tools", REPO_TOOLS, "--allowedTools", REPO_TOOLS, "--add-dir", cfg["repo"],
+             "--permission-mode", "dontAsk"] if cfg.get("repo") else ["--tools", ""]
+    return ["claude", "-p", "--safe-mode", *tools,
             "--strict-mcp-config", "--mcp-config", '{"mcpServers":{}}',
             "--no-session-persistence", "--output-format", "json",
             "--model", cfg["model"], "--effort", cfg["effort"],
             "--system-prompt", system_prompt,
             "--json-schema", json.dumps(ANSWER_SCHEMA)]
+
+
+def repo_label(path: str) -> str:
+    """The repo's folder name and commit, e.g. device-log-upload-service@1a2b3c4, so the sheet says what was read."""
+    path = str(Path(path).resolve())
+    git = lambda *a: subprocess.run(["git", "-C", path, *a], capture_output=True, text=True).stdout.strip()
+    # Only trust the commit if the folder is the top of its own repository, not a plain folder inside another one.
+    commit = git("rev-parse", "--short", "HEAD") if git("rev-parse", "--show-toplevel") == path else ""
+    return f"{Path(path).name}@{commit}" if commit else Path(path).name
 
 
 def clean_env() -> dict:
@@ -348,16 +373,22 @@ def clean_env() -> dict:
 
 async def run_sandbox(folder: Path, level: str, rep: int, logs: list, cfg: dict) -> dict:
     system_prompt = (HERE / "prompts" / f"{cfg['prompt']}.txt").read_text()
+    if cfg.get("repo"):
+        system_prompt += REPO_NOTE.format(path=cfg["repo"])
     prompt, context = build_prompt(folder, level, logs)
     started = datetime.now()
-    run_id = f"{started:%Y%m%d-%H%M%S}-{folder.name}-{level}{'' if logs else '-nologs'}-r{rep}"
+    tags = [t for t, on in (("no logs", not logs), ("repo", cfg.get("repo"))) if on]
+    run_id = (f"{started:%Y%m%d-%H%M%S}-{folder.name}-{level}"
+              f"{''.join('-' + t.replace(' ', '') for t in tags)}-r{rep}")
     row = {
         "Run ID": run_id, "Date": f"{started:%Y-%m-%d %H:%M}", "Jira ticket": folder.name.upper(),
-        # A context-only run gets its own label, so Summary's raw/some/full columns never count it.
-        "Context level": level if logs else f"{level} (no logs)", "Repeat": rep, "Prompt": cfg["prompt"],
+        # A context-only or repo run gets its own label, such as "some (repo)", so Summary's raw/some/full
+        # columns only ever count plain runs.
+        "Context level": f"{level} ({', '.join(tags)})" if tags else level, "Repeat": rep, "Prompt": cfg["prompt"],
         "Model": cfg["model"], "Effort": cfg["effort"],
         "Log files": len(logs), "Log lines": sum(len(t.splitlines()) for _, t in logs),
         "Log chars": sum(len(t) for _, t in logs), "Context chars": len(context),
+        "Repo": cfg.get("repo_label", ""),
     }
 
     # Each sandbox gets its own empty working folder, so no CLAUDE.md or project file is anywhere near it.
@@ -414,6 +445,7 @@ async def run_sandbox(folder: Path, level: str, rep: int, logs: list, cfg: dict)
         "Fix": answer.get("fix", ""),
         "Quoted lines": len(quotes), "Quoted lines found": len(quotes) - len(missing),
         "Quotes not in log": "\n".join(missing),
+        "Code references": "\n".join(answer.get("code_references", [])),
     })
     return row
 
@@ -483,7 +515,13 @@ def cmd_run(args, cfg):
         cfg["model"] = args.model
     if args.effort:
         cfg["effort"] = args.effort
-    print(f"Model {cfg['model']}, effort {cfg['effort']}, prompt {cfg['prompt']}", flush=True)
+    if args.repo:
+        repo = args.repo.expanduser().resolve()
+        if not repo.is_dir():
+            sys.exit(f"--repo: no folder {repo}. Clone the repository first and pass the clone's folder.")
+        cfg["repo"], cfg["repo_label"] = str(repo), repo_label(str(repo))
+    print(f"Model {cfg['model']}, effort {cfg['effort']}, prompt {cfg['prompt']}"
+          f"{', repo ' + cfg['repo_label'] + ' (read-only)' if args.repo else ''}", flush=True)
     folders = [test_dir(name) for name in args.tickets]
     # Check every folder before spending anything.
     plans = {folder: (pick_levels(folder, args), [] if args.no_logs else load_logs(folder, cfg)) for folder in folders}
@@ -536,6 +574,8 @@ def main():
     r.add_argument("--model", help="model for this run: an alias (sonnet, opus, haiku) or a full name such as "
                                    "claude-sonnet-5-5 (default: config.json)")
     r.add_argument("--effort", choices=EFFORTS, help="effort for this run (default: config.json)")
+    r.add_argument("--repo", type=Path, help="a local clone of the service's repository: Claude may read it with "
+                                             "Read, Grep and Glob, and nothing else")
     s = sub.add_parser("show", help="print the prompt for one level without calling Claude")
     s.add_argument("ticket")
     s.add_argument("--level", default="raw", choices=LEVELS)

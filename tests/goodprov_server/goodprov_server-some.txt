@@ -1,0 +1,1 @@
+are logs being uploaded properly to the java service 

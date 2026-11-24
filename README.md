@@ -13,7 +13,8 @@ python3 -m venv .venv
 
 ## Add a test
 
-Make a folder under `tests/` named after the ticket, in lower case:
+Make a folder under `tests/` in lower case. Name it after the Jira ticket, or give it any name for a lab test
+without a ticket, such as `badprod_server`. The sheet records the folder name in capitals as the ticket.
 
 ```
 tests/herd-7121/
@@ -22,22 +23,33 @@ tests/herd-7121/
   herd-7121-full.txt             the ticket history up to before the cause was found, never the resolution (optional)
 ```
 
-Every file that isn't the some or full file counts as a log. Archives (`.zip`, `.tar.gz`, `.tgz`, `.gz`, also inside
-one another) are opened in memory, and only text files inside them are sent; images, pcaps and other binaries are
-skipped. Run `files` first to see what will be sent and what was skipped.
+Every file that isn't the some or full file counts as a log. The context files must be named exactly as above,
+including `.txt`. A file named `herd-7121-some` is sent as a log, and the some level does not exist. The last line
+of `files herd-7121` lists the levels the script found.
+
+Archives (`.zip`, `.tar.gz`, `.tgz`, `.gz`, also inside one another) are opened in memory, and only text files
+inside them are sent. Images, pcaps and other binaries are skipped. Run `files` first to see what will be sent and
+what was skipped.
+
+Last, add a row on the sheet's **Scenarios** tab whose Jira ticket cell is the folder name in capitals, such as
+`HERD-7121` or `BADPROD_SERVER`. See "The Summary tab" below for why.
 
 ### Attaching the ticket's files
 
-The context files are text only: the attachments are whatever else is in the folder. `attach` copies files there
-for you, trimmed to the lines that matter if the logs are too big, and finishes with the `files` listing and a
-"Fits" or "Too big" line against `max_log_chars`:
+The context files hold text only. The attachments are the other files in the folder. Keep the originals in
+`attachments/<ticket>/`. `attach` copies files from there into the test folder, trimmed to the lines that matter if
+the logs are too big. It finishes with the `files` listing and a "Fits" or "Too big" line against
+`max_log_chars`.
 
 ```bash
-.venv/bin/python run_test.py attach herd-7121 ~/Downloads/phones.txt ~/Downloads/pbx.zip   # as they are
-.venv/bin/python run_test.py attach herd-7121 ~/Downloads/pbx.log --grep '0004f2aabbcc' --as one-phone.log
-.venv/bin/python run_test.py attach herd-7121 ~/Downloads/pbx.log* \
+.venv/bin/python run_test.py attach herd-7121 attachments/herd-7121/phones.txt attachments/herd-7121/pbx.zip
+.venv/bin/python run_test.py attach herd-7121 attachments/herd-7121/pbx.log --grep '0004f2aabbcc' --as one-phone.log
+.venv/bin/python run_test.py attach herd-7121 attachments/herd-7121/pbx.log* \
     --between "2026-02-13 01:10" "2026-02-13 01:20" --as window.log
 ```
+
+When you grep for one phone, use values that belong to it alone, such as its MAC address. A value every phone
+shares, like the site's public IP address, keeps the whole log.
 
 `--grep` keeps the log entries matching a regular expression, `--between` keeps those in a time window (compared
 as text, so `01:10` means the whole minute), and `--as` merges all the files given into one attachment. A line
@@ -55,18 +67,41 @@ calling Claude and lists the files, so you can take out the ones you don't need.
 
 ```bash
 .venv/bin/python run_test.py files herd-7121                # which logs will be sent, costs nothing
+.venv/bin/python run_test.py files herd-7121 --level some   # the same, plus the context file that level adds
 .venv/bin/python run_test.py show herd-7121 --level full    # the exact prompt Claude will receive, costs nothing
 .venv/bin/python run_test.py run herd-7121                  # one sandbox per level, all at once
 .venv/bin/python run_test.py run herd-7121 herd-7969 --reps 3
 .venv/bin/python run_test.py run herd-7121 --levels some,full   # only these levels
 .venv/bin/python run_test.py run herd-7121 --no-logs        # context alone, no log at all
+.venv/bin/python run_test.py run herd-7121 --model claude-sonnet-5-5 --effort medium   # this run only
 .venv/bin/python run_test.py upload                         # push any runs the sheet doesn't have yet
 ```
+
+`--model` takes a model ID: `claude-opus-5-5` (the default in `config.json`), `claude-sonnet-5-5` or
+`claude-haiku-5-5`. `--effort` takes `low`, `medium`, `high`, `xhigh` or `max`. Both apply to that run only, and
+`run` prints the model and effort on its first line. Aliases such as `sonnet` also work, but the sheet then records
+`sonnet`, which points at a different model when a newer Sonnet ships. Use the full ID for runs you will compare.
 
 `--no-logs` sends only the some and full context, so it shows what Claude concludes from the ticket text alone, and
 how much the logs add on top. It needs no logs in the folder and skips raw. Those runs are labelled
 `some (no logs)` and `full (no logs)` in the Context level column, so Summary's raw/some/full counts and the pass
 bar never include them.
+
+### Letting Claude read the service's code (`--repo`)
+
+```bash
+.venv/bin/python run_test.py run goodprov_server --repo ~/code/<service>
+```
+
+`--repo` takes a local clone of the repository. The sandbox then gets three read-only tools, Read, Grep and Glob,
+with access to that folder only. It still has no shell, no editing tools and no network tools. The system prompt
+tells Claude the code is there, and the answer gains a `code_references` field for the code it relied on, written
+as path:line. `quoted_lines` stays log lines only, so the quote check still works.
+
+These runs are labelled `raw (repo)`, `some (repo)` and `full (repo)` in the Context level column, so Summary's
+counts never include them. The Repo column holds the folder name and commit, such as `my-service@1a2b3c4`. Check
+out the same commit for runs you want to compare. Each file Claude opens adds a turn, so expect higher cost and
+time than a plain run.
 
 `run` uploads at the end unless you pass `--no-upload`. Every run is also kept locally:
 
@@ -88,7 +123,7 @@ itself, with no model involved.
 |---|---|
 | `spreadsheet_id` | The Google Sheet to write to |
 | `worksheet` | The tab for results; created with its header row on the first upload |
-| `model`, `effort` | Defaults for every run; `run --model sonnet --effort medium` overrides them for one run. Keep them the same across runs you want to compare |
+| `model`, `effort` | Defaults for every run. `run --model claude-sonnet-5-5 --effort medium` overrides them for one run. Keep them the same across runs you want to compare |
 | `prompt` | Which file in `prompts/` is the system prompt. Copy `p1.txt` to `p2.txt` to try a new wording |
 | `timeout_s` | How long one sandbox may take |
 | `max_log_chars` | Largest amount of log text one run may send |

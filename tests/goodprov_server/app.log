@@ -1,0 +1,423 @@
+000016.495|rdisk|*|00|Initial log entry. Current logging level 4
+000016.500|rdisk|*|00|RAM disk created and mounted at "/rfs0"
+000016.503|rdisk|*|00|RAM disk created, size: 16,777,216 bytes
+000016.534|log  |*|00|---------- Initial log entry ----------
+000016.534|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000016.535|so   |*|00|Platform: Interface    eth0 MAC=64167f0082e9
+000016.537|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000016.538|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000016.542|so   |*|00|Platform: Updater=5.9.8.4127 31-Aug-23 13:24
+000016.542|so   |*|00|Application, main: Label=SIP, Version=Helford8 5.9.8.5760 31-Aug-23 12:59
+000016.544|so   |*|00|Application, main: P/N=3150-11530-598
+000016.547|so   |*|00|PoE-Type-2 is detected
+000016.549|pec  |*|00|Initial log entry. Current logging level 4
+000016.553|rdisk|*|00|RAM disk created, size: 16,777,216 bytes
+000016.553|ocsp |*|00|OCSP enabled status : [0]
+000017.009|tls  |*|00|Initial log entry. Current logging level 4
+000017.075|pmt  |*|00|Initial log entry. Current logging level 4
+000017.090|wdog |*|00|Initial log entry. Current logging level 4
+000017.091|ethf |*|00|Initial log entry. Current logging level 4
+000017.093|hw   |*|00|Initial log entry. Current logging level 4
+000017.095|ares |*|00|Initial log entry. Current logging level 4
+000017.098|dns  |*|00|Initial log entry. Current logging level 4
+000017.100|cfg  |*|00|Initial log entry. Current logging level 4
+000017.100|cfg  |*|00|Prm|cfgParamBaseProfileUpdate: the currest base profile is Generic
+000017.110|dot1x|*|00|Initial log entry. Current logging level 4
+000017.146|lic  |*|00|Initial log entry. Current logging level 4
+000017.196|lic  |*|00|Checking license expiry in 20749 seconds
+000017.756|curl |*|00|Initial log entry. Current logging level 4
+000017.756|utilm|*|00|Initial log entry. Current logging level 4
+000017.758|copy |*|00|Initial log entry. Current logging level 4
+000017.760|rtos |*|00|Initial log entry. Current logging level 4
+000017.762|wifi |*|00|Initial log entry. Current logging level 4
+000017.772|dasvc|*|00|Initial log entry. Current logging level 2
+000017.791|sec  |*|00|Initial log entry. Current logging level 4
+000017.801|so   |*|00|Configuration files: cfgs/64167f0082e9reg.cfg, cfgs/64167f0082e9paging.cfg,  cfgs/64167f0082e9_blf.cfg, server.cfg, efk-ucs41x.cfg, PolycomTones.cfg
+000017.801|so   |*|00|Configuration file "cfgs/64167f0082e9reg.cfg" SHA1 digest: 1374442BA885CA327B005ED362B701AC485FDB6F
+000017.801|so   |*|00|Configuration file "cfgs/64167f0082e9paging.cfg" SHA1 digest: B71EB8F352F995A6D3289827E9362457DB51A630
+000017.801|so   |*|00|Configuration file "cfgs/64167f0082e9_blf.cfg" SHA1 digest: 755E805043C5E02070D93FCFEA774DB1DB24B353
+000017.801|so   |*|00|Configuration file "server.cfg" SHA1 digest: BD331B1D402C2F4201FF68218B3F6BA823C434D9
+000017.801|so   |*|00|Configuration file "efk-ucs41x.cfg" SHA1 digest: BCD5DC8FC16DB1AC42ACC4FCD682958B700B994B
+000017.801|so   |*|00|Configuration file "PolycomTones.cfg" SHA1 digest: 5023DA65CFB8839186EFB83C47026CB6633C536E
+000017.801|cfg  |4|00|Prm|Configuration file(s) statistics: 10 parameters were invalid and could not be interpreted.
+000017.801|cfg  |4|00|Prm|Configuration file(s) statistics: 0 parameter values were used but were out of range. 4 were invalid and ignored.
+000017.835|log  |*|00|Log render level set to 1
+000017.842|pcap |*|00|On-Phone Packet Capture disabled
+000017.849|srtp |*|00|Initial log entry. Current logging level 4
+000017.858|res  |*|00|Initial log entry. Current logging level 4
+000017.859|httpa|*|00|Initial log entry. Current logging level 4
+000017.859|lldp |*|00|Initial log entry. Current logging level 4
+000017.859|cdp  |*|00|Initial log entry. Current logging level 4
+000017.860|pcd  |*|00|Initial log entry. Current logging level 4
+000017.873|so   |*|00|System Info Reports:
+000017.873|so   |*|00|  Cpu is ARMv6-compatible processor rev 7 (v6l), ID: 0x111890b0, running at 500MHz.
+000017.873|so   |*|00|  Board is identified as PolycomVVX-VVX_301.
+000017.873|so   |*|00|  DRAM_SIZE: 256 MB
+000017.873|so   |*|00|  NAND flash detected is 10
+000017.873|key  |*|00|Initial log entry. Current logging level 4
+000017.891|cfg  |5|00|Prm|Array parameter key.x.function.prim index 324 is out of range
+000017.891|cfg  |5|00|Prm|Array parameter key.x.function.sec index 324 is out of range
+000017.891|cfg  |5|00|Prm|Array parameter key.x.subPoint.prim index 324 is out of range
+000017.892|cfg  |5|00|Prm|Array parameter key.x.subPoint.sec index 324 is out of range
+000017.892|cfg  |5|00|Prm|Array parameter key.x.remote.prim index 324 is out of range
+000017.892|cfg  |5|00|Prm|Array parameter key.x.remote.sec index 324 is out of range
+000017.909|httpd|*|00|Initial log entry. Current logging level 4
+000017.910|poll |*|00|Initial log entry. Current logging level 4
+000017.913|push |*|00|Initial log entry. Current logging level 4
+000017.913|poll |*|00|Initial log entry. Current logging level 4
+000017.913|poll |*|00|Initial log entry. Current logging level 4
+000017.916|rest |*|00|Initial log entry. Current logging level 4
+000017.920|ht   |*|00|Initial log entry. Current logging level 4
+000017.921|ht   |*|00|HTTP test automation is initialized.
+000017.923|avm  |*|00|Initial log entry. Current logging level 4
+000017.925|ssps |*|00|Initial log entry. Current logging level 4
+000017.925|dbuf |*|00|Initial log entry. Current logging level 4
+000017.926|drvc |*|00|Initial log entry. Current logging level 4
+000018.046|ssps |5|00|Allocated 36992 bytes for SspsHdiMemBase=0x16fab88
+000018.049|ssps |*|00|sspsDspLoad: found SubVino2 31.
+000018.366|ssps |*|00|sspsMain: downloaded DSP successfully using default image.
+000018.370|ssps |*|00|sspsMain: Set HDI mem to be 0, was 0
+000018.386|ssps |*|00|Application, comp. 1: Label=PolyDSP Vino BCM11189, Version=8.4.7.1007ZQ 27-Nov-2019 08:17
+000018.386|ssps |*|00|Application, comp. 1: P/N=3150-11580-874.
+000018.389|ice  |*|00|Initial log entry. Current logging level 4
+000018.389|afe  |*|00|Initial log entry. Current logging level 6
+000018.399|pps  |*|00|Initial log entry. Current logging level 4
+000018.400|sip  |*|00|Initial log entry. Current logging level 4
+000018.402|sipt |*|00|Initial log entry. Current logging level 4
+000018.402|sipp |*|00|Initial log entry. Current logging level 4
+000018.416|ptt  |*|00|Initial log entry. Current logging level 4
+000018.424|xmpp |*|00|Initial log entry. Current logging level 4
+000018.432|btoe |*|00|Initial log entry. Current logging level 4
+000018.434|pdect|*|00|Initial log entry. Current logging level 4
+000018.537|mcu  |*|00|Initial log entry. Current logging level 4
+000018.539|pkt  |*|00|Initial log entry. Current logging level 4
+000018.539|fur  |*|00|Initial log entry. Current logging level 4
+000018.539|vsr  |*|00|Initial log entry. Current logging level 4
+000018.539|statn|*|00|Initial log entry. Current logging level 4
+000018.539|statc|*|00|Initial log entry. Current logging level 4
+000018.563|so   |4|00|Core Audio: Instruction 2 of sound effect Message Waiting is out of range
+000018.563|so   |4|00|Core Audio: Instruction 3 of sound effect Message Waiting is out of range
+000018.584|so   |4|00|Core Audio: Instruction 2 of sound effect Message Waiting is out of range
+000018.584|so   |4|00|Core Audio: Instruction 3 of sound effect Message Waiting is out of range
+000019.492|pwrsv|*|00|Initial log entry. Current logging level 4
+000019.555|so   |*|00|Using TCP IP media port, configured initial RTP port 2222
+000019.556|so   |*|00|Open SIP RTP media port range for audio: 2222 to 2269
+000019.556|so   |*|00|Open SIP RTP media port range for video: 0 to 0
+000019.557|so   |*|00|Lync RTP media port range for audio: 5350 to 5402
+000019.557|so   |*|00|Lync RTP media port range for video: 0 to 0
+000019.559|so   |*|00|Using TCP IP media port, configured initial RTP port 2222
+000019.559|so   |*|00|Open SIP RTP media port range for audio: 2222 to 2229
+000019.559|so   |*|00|Open SIP RTP media port range for video: 0 to 0
+000019.559|so   |*|00|Lync RTP media port range for audio: 5350 to 5402
+000019.559|so   |*|00|Lync RTP media port range for video: 0 to 0
+000019.582|so   |*|00|Enabled voice quality monitoring for (RTCP-XR) (Session)
+000019.594|usb  |*|00|Initial log entry. Current logging level 4
+000019.605|sshc |*|00|Initial log entry. Current logging level 4
+000019.606|gbLoc|*|00|Initial log entry. Current logging level 4
+000019.614|app1 |*|00|Initial log entry. Current logging level 4
+000019.822|ldap |*|00|Initial log entry. Current logging level 4
+000019.825|dns  |4|00|doDnsLookupForList: DNS not yet initialized, skipping lookup.
+000019.828|cfg  |5|00|Prm|Array parameter dir.corp.attribute.x.name index 9 is out of range
+000019.829|cfg  |5|00|Prm|Parameter dir.corp.attribute.x.addstar requested type 4 but is of type 7
+000019.829|cfg  |5|00|Prm|Type 4 7 for array parameter 59 index 1 is not valid
+000020.083|hset |5|00|AppHeadsetMgrC::analogCfgInit: Hw Serial 0
+000020.084|hset |5|00|AppHeadsetMgrC::analogCfgInit: cfgAnalogHeadsetOption 2
+000020.121|efk  |*|00|Initial log entry. Current logging level 4
+000020.123|efk  |4|00|Prompt with id [1] is OK.
+000020.123|efk  |4|00|Prompt with id [2] is OK.
+000020.125|efk  |4|00|Macro with id [callpark] is OK.
+000020.125|efk  |4|00|Macro with id [blindxfer] is OK.
+000020.125|efk  |4|00|Macro with id [xfer2vm] is OK.
+000020.126|efk  |4|00|Macro with id [intercom] is OK.
+000020.126|efk  |4|00|Macro with id [record] is OK.
+000020.126|efk  |4|00|Macro with id [lcr] is OK.
+000020.162|app1 |4|00|AppHybridC::termLclChg failed to find pCall
+000020.289|pwr  |*|00|Initial log entry. Current logging level 4
+000020.289|pwr  |5|00|Initializing Power Manager - Polyapp
+000020.293|cmp  |*|00|Initial log entry. Current logging level 4
+000020.299|wmgr |*|00|Initial log entry. Current logging level 4
+000020.313|slog |*|00|Initial log entry. Current logging level 3
+000020.317|pwr  |5|00|Powering up USB ports from Power Manager usb0power 1 usb1power 1
+000020.803|so   |4|00|SoKeyC::procMsg unexpected message 4099
+000021.299|wdog |*|00|Succesfully created HW watchdog timer interface for polyapp.
+000022.030|pgui |*|00|Initial log entry. Current logging level 4
+000023.303|dhcpc|*|00|Initial log entry. Current logging level 4
+000023.308|cfg  |*|00|RT|cfgRtTask: Processing VLAN update 104 on eth0, lastUpdateVlanId 0
+000023.314|dhcpc|*|00|dhcLeaseMgr: Terminate any previous DHCP client while creating thread
+000024.356|dhcpc|*|00|dhcLeaseMgr: Received 1, dhcpRunning false
+000024.357|cfg  |*|00|RT|cfgRtTask: Processing VLAN update 104 on eth0.104, lastUpdateVlanId 104
+000024.357|cfg  |*|00|RT|cfgRtTask: Not processing update received for same vlan 104 on eth0.104
+000026.332|cfg  |5|00|RT|cfgRtRunDvdOnDhcpLease:DVD is not in progress
+000026.336|cfg  |*|00|RT|   Phone IP address is 10.124.4.91.
+000026.336|cfg  |*|00|RT|   Subnet mask is 255.255.254.0.
+000026.336|cfg  |*|00|RT|   Gateway address is 10.124.4.1.
+000026.341|cfg  |*|00|RT|   DNS server is 10.124.127.30.
+000026.341|cfg  |*|00|RT|   DNS alternate server is 10.124.63.240.
+000026.341|cfg  |*|00|RT|   Time server is 10.124.4.1.
+000026.341|cfg  |*|00|RT|   GMT offset is -28800 seconds.
+000026.344|dns  |*|00|DNS resolver servers are '10.124.127.30' '10.124.63.240'
+000026.344|dns  |*|00|DNS resolver search domain is ''
+000026.346|cfg  |*|00|RT|Primary IP: 10.124.4.91 subnet mask 255.255.254.0
+000026.351|dect |*|00|Initial log entry. Current logging level 4
+000026.351|dect |*|00|createCmbsDectInstance :: cmbs Dect Instance is created
+000026.352|dect |4|00|PC port is not up, so not starting pc port pairing
+000026.352|dect |4|00|PC port is not up, so not starting pc port pairing
+000026.359|so   |*|00|Network initialisation is complete, continue with network tasks.
+000026.367|loc  |*|00|Initial log entry. Current logging level 4
+000026.379|nisvc|*|00|Initial log entry. Current logging level 2
+000026.379|cfg  |4|00|Prm|cfgParamCbSet: duplicate function pointer
+000026.504|auth |*|00|Initial log entry. Current logging level 2
+000026.504|cfg  |4|00|Prm|cfgParamCbSet: duplicate function pointer
+000026.505|dpair|*|00|Initial log entry. Current logging level 4
+000026.505|cfg  |4|00|Prm|cfgParamCbSet: duplicate function pointer
+000026.509|proxy|*|00|Initial log entry. Current logging level 2
+000026.509|cfg  |4|00|Prm|cfgParamCbSet: duplicate function pointer
+000026.511|proxy|3|00|Proxy Service initialized
+000026.513|wad  |*|00|Initial log entry. Current logging level 2
+000026.513|cfg  |4|00|Prm|cfgParamCbSet: duplicate function pointer
+000026.523|rssvc|*|00|Initial log entry. Current logging level 2
+000026.523|cfg  |4|00|Prm|cfgParamCbSet: duplicate function pointer
+000026.533|log  |*|00|Install file upload callback for 'so'
+
+000026.536|btoe |5|00|MsgPpsNcasProcessStartStopCmnd: BTOE is disabled. Cannot start Pairing
+000026.558|moh  |*|00|Initial log entry. Current logging level 4
+000026.574|cfg  |5|00|Prm|Parameter ipv4.tcpRetries2 requested type 2 but is of type 0
+1124125958|pps  |*|00| vqmon process service route is disabled
+1124125958|pps  |*|00|Voice quality report collector is vqmonitor.8x8pilot.com:5700
+1124125958|pps  |*|00| vqmon RFC 6035 is Disabled
+1124125958|pps  |*|00|PpsHybridC::launch | VQMon | Failover is DISABLED
+1124125958|moh  |4|00|SoNcasMohC::soNcasmohCfgInit: File provisioning for Music On Hold is defined only for Lync Profile and if Music On Hold feature is enabled
+1124125958|so   |4|00|[MsgSoTR069Init] Start
+1124125958|dectU|*|00|Initial log entry. Current logging level 4
+1124125958|dectU|4|00|DECT_UPDATER SDectUpdaterS0: BaseEventInit: Wait, NotPaired
+1124130000|dectU|4|00|DECT_UPDATER size of (updateStatusDetails) 384
+1124130000|dectU|4|00|DECT_UPDATER Read Could not open file
+1124130000|dect |4|00|Dect Base macId from config:. Len:0
+1124130000|so   |4|00|[soMainWriteBootProvProxies] Provisioning proxy resolve state '0'
+1124130005|pgui |*|00|Qt Keyboard driver created.
+1124130005|pgui |4|00|Reconnected with core app, reload the keyboard
+1124130013|pgui |*|00|Qt Mouse driver created.
+1124130013|pgui |5|00|Received theme(1) : Existing Theme(-1)
+1124130014|em   |*|00|Initial log entry. Current logging level 4
+1124130014|osd  |*|00|Initial log entry. Current logging level 4
+1124130014|dbs  |*|00|Initial log entry. Current logging level 4
+1124130017|brow |*|00|Initial log entry. Current logging level 4
+1124130017|clist|*|00|Initial log entry. Current logging level 4
+1124130017|clist|4|00|dbCfg::getServerDir:Unknown dbCfg type
+1124130017|clist|4|00|dbCfg::getServerDir:Unknown dbCfg type
+1124130017|clist|4|00|dbCfg::getServerDir:Unknown dbCfg type
+1124130017|clist|4|00|dbCfg::getServerDir:Unknown dbCfg type
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130017|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130017|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130018|clist|4|00|dbXML::runStart:<ChangeKey> no handler
+1124130018|clist|4|00|dbXML::runStart:<isRead> no handler
+1124130019|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124130019|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124130020|app1 |*|00|[appInitialized] App initialization is completeled.
+1124130020|so   |4|00|[SoNcasC]: appncascontext termination:1
+1124130020|so   |4|00|[SoNcasC]: Case Handling termination:1
+1124130020|sip  |*|00|Sip registering user:110000031960216 display name:Multiline Test authorizing user name:'110000031960216' index value:0
+1124130020|utilm|4|00|uBLFUnCompressed: File /ffs0/Config/Local/WebTicket/0/sip.usr doesn't exist or is empty
+1124130020|ldap |4|00|[activate:188] cDynamicData::activate() m_pCfg->lookupHost() = 1
+
+1124130020|app1 |4|00|fsmLclEvent - context=0, index=2, lineKeyNum=1, numLineKeys=3
+1124130020|app1 |4|00|setFlexLineKeyIndex -Index: 0, Position: 0
+1124130020|app1 |4|00|fsmLclEvent - context=0, index=3, lineKeyNum=2, numLineKeys=3
+1124130020|app1 |4|00|setFlexLineKeyIndex -Index: 1, Position: 1
+1124130020|app1 |4|00|fsmLclEvent - context=0, index=4, lineKeyNum=3, numLineKeys=3
+1124130020|app1 |4|00|setFlexLineKeyIndex -Index: 2, Position: 2
+1124130020|sip  |*|00|Fast boot measurement point: ready to make Call, uptime: 49.460 sec.
+1124130020|ldap |4|00|[ldapConnSecureOpts:720] [ldapData::ldapConnSecureOpts] TLS Protocol = 3
+1124130020|clist|4|00|dbCfg::getServerDir:Unknown dbCfg type
+1124130020|clist|4|00|dbCfg::getServerDir:Unknown dbCfg type
+1124130020|cfg  |*|00|Prov|Starting to provision
+1124130020|sip  |4|00|Failed to connect to [216.59.137.17:5443] : Error[Operation now in progress]
+1124130022|cfg  |5|00|Prov|cfgProvStatusSet: Unknown status 53
+1124130022|cfg  |*|00|Prov|Starting to update 598/3111-48300-001.sip.ld
+1124130024|copy |*|00|Server 'sipconf2.8x8pilot.com' said 'polycomuc/cfgs/contacts/000000000000-directory.xml' is not present
+1124130024|clist|4|00|dbSet::srv2mem:'https://sipconf2.8x8pilot.com/polycomuc/cfgs/contacts/000000000000-directory.xml' File transfer failed, trying to get local file
+1124130025|copy |*|00|Server 'sipconf2.8x8pilot.com' said 'polycomuc/cfgs/contacts/000000000000-directory.xml' is not present
+1124130025|clist|4|00|dbSet::srv2mem:'https://sipconf2.8x8pilot.com/polycomuc/cfgs/contacts/000000000000-directory.xml' File transfer failed, trying to get local file
+1124130027|copy |*|00|Server 'sipconf.8x8pilot.com' said 'polycomuc/64167f0082e9-phone.cfg' is not present
+1124130027|cfg  |4|00|Prov|File transfer failed due to curl error code:22 and respCode:404
+1124130028|copy |*|00|Server 'sipconf.8x8pilot.com' said 'polycomuc/64167f0082e9-web.cfg' is not present
+1124130028|cfg  |4|00|Prov|File transfer failed due to curl error code:22 and respCode:404
+1124130029|copy |*|00|Server 'sipconf.8x8pilot.com' said 'polycomuc/license/64167f0082e9-license.cfg' is not present
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "da.optIn" found, ignoring.
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "da.optIn.menu.enabled" found, ignoring.
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "bg.hiRes.color.selection" found, ignoring.
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "bg.hiRes.color.bm.1.name" found, ignoring.
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "bg.hiRes.color.bm.1.em.name" found, ignoring.
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "bg.hiRes.gray.selection" found, ignoring.
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "bg.hiRes.gray.bm.1.name" found, ignoring.
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "bg.hiRes.gray.bm.1.em.name" found, ignoring.
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "bg.medRes.gray.selection" found, ignoring.
+1124130029|cfg  |4|00|Prm|server.cfg: Unknown parameter "bg.medRes.gray.bm.1.name" found, ignoring.
+1124130029|cfg  |*|00|Prov|Setting device parameters from configuration files.
+1124130029|cfg  |4|00|RT|cfgFlashUpdateFromConfig: Failed to update SerialConfig
+1124130029|clist|4|00|dbSet::ioRequest:dir=<0> m_status=<true> src=<https://sipconf2.8x8pilot.com/polycomuc/cfgs/contacts/64167f0082e9-directory.xml> dst=</ffs0/user/64167f0082e9/64167f0082e9-directory.xml> m_sync=<0x10>
+1124130029|cfg  |*|00|Prov|Finished updating configuration
+1124130029|so   |*|00|SCEP feature is disabled.
+1124130030|so   |4|00|File name is /rfs0/LoudRing.wav
+1124130030|copy |*|00|Server 'sipconf2.8x8pilot.com' said 'polycomuc/cfgs/contacts/000000000000-directory.xml' is not present
+1124130030|clist|4|00|dbSet::srv2mem:'https://sipconf2.8x8pilot.com/polycomuc/cfgs/contacts/000000000000-directory.xml' File transfer failed, trying to get local file
+1124130031|copy |*|00|Server 'sipconf2.8x8pilot.com' said 'polycomuc/cfgs/contacts/000000000000-directory.xml' is not present
+1124130031|clist|4|00|dbSet::srv2mem:'https://sipconf2.8x8pilot.com/polycomuc/cfgs/contacts/000000000000-directory.xml' File transfer failed, trying to get local file
+1124130031|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124130031|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124130031|so   |4|00|File name is /rfs0/Warble.wav
+1124130031|so   |4|00|File name is /rfs0/LoudRing.wav
+1124130031|so   |4|00|File name is /rfs0/Warble.wav
+1124130032|copy |*|00|Server 'sipconf.8x8pilot.com' said 'polycomuc/VVXLocalization/English_United_States/VVX-dictionary.xml' is not present
+1124130032|res  |4|00|[ResFinderC]: Download - Failed to download file VVXLocalization/English_United_States/VVX-dictionary.xml, errno 0x2.
+1124130037|ec   |*|00|Initial log entry. Current logging level 4
+1124130049|app1 |4|00|AppBrowserUiC::configure() Enter
+1124130049|app1 |4|00|AppBrowserUiC::configure() - Home url - [https://cloud8-staging.8x8.com/microbrowser-service/public/index.php?user=110000031960216&mac=64167f0082e9&token=ADFE6B6A2E684293B764A423FD1C439C_46BB6D07D8248DC3F0C4C9B1AFEC9A4AE9B8D5D6570A208157C9A010F6D904F1], idle url - []
+1124130049|brow |4|00|Timezone value = PST8PDT,J67/2:0:0,J305/2:0:0, Browser state - 1, Visible - 0
+
+1124130049|brow |4|00|CWebLayoutMgr::handleProxyConfiguration Enter
+
+1124130049|brow |4|00|CWebLayoutMgr::handleProxyConfiguration Default
+
+1124130049|brow |4|00|CWebLayoutMgr::handleProxyConfiguration Exit
+
+1124130051|app1 |5|00|AppExchangeUiC::configSecurity CA path:[/ffs0/ca1.crt]
+1124130057|app1 |5|00|AppPhoneLockC::Init - bPhoneLockState [0]
+1124130922|app1 |*|00|Event: Multiple Key Combo 5
+1124130923|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124130923|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124130925|app1 |*|00|Event: Multiple Key Combo 5
+1124130927|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124130927|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124130928|app1 |*|00|Event: Multiple Key Combo 5
+1124130930|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124130930|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124130950|app1 |*|00|Event: Multiple Key Combo 5
+1124130951|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124130951|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124130954|app1 |*|00|Event: Multiple Key Combo 5
+1124130955|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124130955|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124131012|app1 |*|00|Event: Multiple Key Combo 5
+1124131013|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124131013|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124131015|app1 |*|00|Event: Multiple Key Combo 5
+1124131017|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124131017|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124131730|app1 |*|00|Event: Multiple Key Combo 5
+1124131730|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124131730|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124131733|app1 |*|00|Event: Multiple Key Combo 5
+1124131734|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124131734|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+1124131736|app1 |*|00|Event: Multiple Key Combo 5
+1124131738|copy |*|00|Server 'herddevicelogs-staging.8x8.com' said 'logs/64167f0082e9-app.log' is not present
+1124131738|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.

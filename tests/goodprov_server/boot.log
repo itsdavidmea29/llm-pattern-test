@@ -1,0 +1,936 @@
+000009.693|so   |*|00|---------- Initial log entry ----------
+000009.693|so   |*|00|+++ Note that Updater log times are in GMT +++
+000009.693|boot |*|00|Initial log entry. Current logging level 3
+000009.693|copy |*|00|Initial log entry. Current logging level 3
+000009.693|utilm|*|00|Initial log entry. Current logging level 4
+000009.693|hw   |*|00|Initial log entry. Current logging level 4
+000009.693|ethf |*|00|Initial log entry. Current logging level 4
+000009.693|dns  |*|00|Initial log entry. Current logging level 3
+000009.693|curl |*|00|Initial log entry. Current logging level 3
+000009.694|sec  |*|00|Initial log entry. Current logging level 4
+000009.698|wdog |*|00|Initial log entry. Current logging level 4
+000009.698|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000009.698|lldp |*|00|Initial log entry. Current logging level 3
+000009.699|cdp  |*|00|Initial log entry. Current logging level 3
+000009.699|key  |*|00|Initial log entry. Current logging level 4
+000009.699|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000009.731|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000009.731|so   |*|00|Platform: Board=3111-48300-001 1 0
+000009.731|so   |*|00|Platform: MAC=64167f0082e9
+000009.732|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000009.732|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000009.732|so   |*|00|Application, main: Label=Updater, Version=Mersey6 6.4.6.2224 13-Dec-23 15:15
+000009.733|so   |*|00|Application, main: P/N=3150-11069-646
+000009.733|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000009.733|so   |*|00|PoE-Type-2 is detected
+000009.733|log  |*|00|Install file upload callback for 'Updater'
+
+000009.734|app1 |*|00|Initial log entry. Current logging level 3
+000009.742|cfg  |*|00|Initial log entry. Current logging level 2
+000009.781|app1 |3|00|Application, load: Type=SIP, Version=6.4.6.2640 13-Dec-23 15:30
+000010.697|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000014.946|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000009.689|so   |*|00|---------- Initial log entry ----------
+000009.689|so   |*|00|+++ Note that Updater log times are in GMT +++
+000009.689|boot |*|00|Initial log entry. Current logging level 3
+000009.689|copy |*|00|Initial log entry. Current logging level 3
+000009.689|utilm|*|00|Initial log entry. Current logging level 4
+000009.689|hw   |*|00|Initial log entry. Current logging level 4
+000009.690|ethf |*|00|Initial log entry. Current logging level 4
+000009.690|dns  |*|00|Initial log entry. Current logging level 3
+000009.690|curl |*|00|Initial log entry. Current logging level 3
+000009.690|sec  |*|00|Initial log entry. Current logging level 4
+000009.694|wdog |*|00|Initial log entry. Current logging level 4
+000009.695|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000009.695|lldp |*|00|Initial log entry. Current logging level 3
+000009.695|cdp  |*|00|Initial log entry. Current logging level 3
+000009.695|key  |*|00|Initial log entry. Current logging level 4
+000009.695|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000009.731|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000009.731|so   |*|00|Platform: Board=3111-48300-001 1 0
+000009.731|so   |*|00|Platform: MAC=64167f0082e9
+000009.731|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000009.732|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000009.732|so   |*|00|Application, main: Label=Updater, Version=Mersey6 6.4.6.2224 13-Dec-23 15:15
+000009.732|so   |*|00|Application, main: P/N=3150-11069-646
+000009.732|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000009.733|so   |*|00|PoE-Type-2 is detected
+000009.733|log  |*|00|Install file upload callback for 'Updater'
+
+000009.733|app1 |*|00|Initial log entry. Current logging level 3
+000009.741|cfg  |*|00|Initial log entry. Current logging level 2
+000009.783|app1 |3|00|Application, load: Type=SIP, Version=6.4.6.2640 13-Dec-23 15:30
+000010.689|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000014.938|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000009.748|so   |*|00|---------- Initial log entry ----------
+000009.749|so   |*|00|+++ Note that Updater log times are in GMT +++
+000009.749|boot |*|00|Initial log entry. Current logging level 3
+000009.749|copy |*|00|Initial log entry. Current logging level 3
+000009.749|utilm|*|00|Initial log entry. Current logging level 4
+000009.749|hw   |*|00|Initial log entry. Current logging level 4
+000009.749|ethf |*|00|Initial log entry. Current logging level 4
+000009.749|dns  |*|00|Initial log entry. Current logging level 3
+000009.749|curl |*|00|Initial log entry. Current logging level 3
+000009.749|sec  |*|00|Initial log entry. Current logging level 4
+000009.753|wdog |*|00|Initial log entry. Current logging level 4
+000009.754|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000009.754|lldp |*|00|Initial log entry. Current logging level 3
+000009.754|cdp  |*|00|Initial log entry. Current logging level 3
+000009.754|key  |*|00|Initial log entry. Current logging level 4
+000009.754|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000009.781|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000009.781|so   |*|00|Platform: Board=3111-48300-001 1 0
+000009.781|so   |*|00|Platform: MAC=64167f0082e9
+000009.782|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000009.782|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000009.782|so   |*|00|Application, main: Label=Updater, Version=Mersey6 6.4.6.2224 13-Dec-23 15:15
+000009.782|so   |*|00|Application, main: P/N=3150-11069-646
+000009.783|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000009.783|so   |*|00|PoE-Type-2 is detected
+000009.783|log  |*|00|Install file upload callback for 'Updater'
+
+000009.783|app1 |*|00|Initial log entry. Current logging level 3
+000009.791|cfg  |*|00|Initial log entry. Current logging level 2
+000009.795|app1 |3|00|Setting the DA reboot flag to cold reboot
+000009.834|app1 |3|00|Application, load: Type=SIP, Version=6.4.6.2640 13-Dec-23 15:30
+000010.753|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000015.002|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000009.383|so   |*|00|---------- Initial log entry ----------
+000009.384|so   |*|00|+++ Note that Updater log times are in GMT +++
+000009.384|boot |*|00|Initial log entry. Current logging level 3
+000009.384|copy |*|00|Initial log entry. Current logging level 3
+000009.384|utilm|*|00|Initial log entry. Current logging level 4
+000009.384|hw   |*|00|Initial log entry. Current logging level 4
+000009.384|ethf |*|00|Initial log entry. Current logging level 4
+000009.384|dns  |*|00|Initial log entry. Current logging level 3
+000009.384|curl |*|00|Initial log entry. Current logging level 3
+000009.384|sec  |*|00|Initial log entry. Current logging level 4
+000009.388|wdog |*|00|Initial log entry. Current logging level 4
+000009.389|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000009.389|lldp |*|00|Initial log entry. Current logging level 3
+000009.389|cdp  |*|00|Initial log entry. Current logging level 3
+000009.389|key  |*|00|Initial log entry. Current logging level 4
+000009.389|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000009.421|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000009.421|so   |*|00|Platform: Board=3111-48300-001 1 0
+000009.421|so   |*|00|Platform: MAC=64167f0082e9
+000009.421|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000009.422|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000009.422|so   |*|00|Application, main: Label=Updater, Version=Mersey6 6.4.6.2224 13-Dec-23 15:15
+000009.422|so   |*|00|Application, main: P/N=3150-11069-646
+000009.422|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000009.423|so   |*|00|PoE-Type-2 is detected
+000009.423|log  |*|00|Install file upload callback for 'Updater'
+
+000009.423|app1 |*|00|Initial log entry. Current logging level 3
+000009.431|cfg  |*|00|Initial log entry. Current logging level 2
+000009.468|dot1x|*|00|Initial log entry. Current logging level 3
+000009.468|app1 |3|00|Starting provisioning because of the start type.
+000009.652|tls  |*|00|Initial log entry. Current logging level 4
+000010.379|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000014.628|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000018.729|lldp |3|00|lldpLinkUp: LLDP received a response from a switch. LLDP enabled.
+000018.790|dhcpc|*|00|Initial log entry. Current logging level 2
+000018.791|dhcpc|3|00|dhcAddIf v4 succeeds: eth0.
+000018.795|dhcpc|3|00|dhcRebind v4 on eth0: Will wait until sync rebind completes.
+000019.384|dhcpc|3|00|dhcListener: Read succeeds: state:
+.
+000019.386|dhcpc|3|00|relLease(0) v4: Succeeded on (null) to fork dhclient to terminate.
+000019.977|dhcpc|3|00|dhcListener: Read succeeds: eth0 state: PREINIT
+.
+000019.977|dhcpc|4|00|DhcpClient::processLine: no callback for state 1 if eth0
+000021.130|dhcpc|3|00|dhcListener: Read succeeds: eth0 ip: 192.168.1.152
+.
+000021.131|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: subnet-mask 255.255.255.0
+.
+000021.132|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: routers 192.168.1.1
+.
+000021.133|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: domain-name-servers 192.168.1.1
+.
+000021.134|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-lease-time 86400
+.
+000021.135|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-server-identifier 192.168.1.1
+.
+000021.137|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: broadcast-address 192.168.1.255
+.
+000021.141|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-lease-time 86400
+.
+000021.142|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-message-type 5
+.
+000021.143|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-renewal-time 43200
+.
+000021.143|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp_rebinding_time 75600
+.
+000021.165|dhcpc|3|00|dhcListener: Read succeeds: eth0 state: BOUND
+.
+000021.165|dhcpc|4|00|DhcpClient::processLine: no callback for state 2 if eth0
+000021.166|dhcpc|3|00|Program eth0 to use subnet mask 255.255.255.0, result -1.
+000021.166|dhcpc|3|00|Program eth0 to use ip address 192.168.1.152, result 0.
+000021.166|dhcpc|3|00|Program eth0 to use router 192.168.1.1, result 0.
+000021.176|dhcpc|3|00|getLease v4: Succeeded to fork dhclient for interface eth0.
+000022.172|ares |*|00|Initial log entry. Current logging level 3
+000022.173|ares |4|00|invalid ip address for DNS server
+000022.173|dns  |*|00|DNS resolver servers are '192.168.1.1' ''
+000022.173|dns  |*|00|DNS resolver search domain is ''
+000022.173|app1 |3|00|DNS resolver server is '192.168.1.1'
+000022.173|app1 |3|00|DNS resolver search domain is ''
+000022.192|app1 |3|00|DHCP returned result 0x87 from server 192.168.1.1.
+000022.192|app1 |3|00|   Phone IPv4 address is 192.168.1.152.
+000022.192|app1 |3|00|   Subnet mask is 255.255.255.0.
+000022.192|app1 |3|00|   Gateway address is 192.168.1.1.
+000022.192|app1 |3|00|   DNS server is 192.168.1.1
+000022.315|app1 |3|00|SNTP: answer from pool.ntp.org. (23.143.196.202) on attempt 1 of 3
+0924194703|app1 |3|00|Time has been set from pool.ntp.org. (23.143.196.202).
+0924194703|app1 |3|00|   1790279223: 2026-9-24, 19:47:3, DST off
+0924194703|cfg  |*|00|Prov|Starting to provision
+0924194703|cfg  |3|00|Prov|Starting to download file 64167f0082e9.cfg
+0924194703|copy |3|00|[performRedundant] proxy mode '7'
+0924194703|copy |4|00|[parseProxyInfo] Proxy mode '7', file path '/ffs0/boot_prov.proxies'
+0924194703|copy |4|00|[parseProxyInfo] Proxy file does not exist. Proxy mode is '7'
+0924194703|copy |3|00|[findProxy] Find proxy status '0', mode '7'
+0924194703|copy |3|00|[connectToProxy] Using DIRECT proxy for mode '7'
+0924194703|copy |3|00|'https://PlcmSpIp:****@sipconf.8x8pilot.com/polycomuc/64167f0082e9.cfg' from 'sipconf.8x8pilot.com(158.101.41.169)'
+0924194703|copy |3|00|cfgProvSrvTypeGet()[2]
+0924194703|copy |3|00|UtilCopyC::performCurl status data is:avgUploadSpeed(0.000000), uploadSize(0.000000), connTime(0.559942), totalTime(0.643068), ftpEntryPath(NULL)
+0924194703|copy |3|00|Download of 'polycomuc/64167f0082e9.cfg' succeeded on attempt 1 (addr 1 of 1)
+0924194703|cfg  |3|00|Prov|Updated file 64167f0082e9.cfg
+0924194703|cfg  |*|00|Prov|Starting to update 598/3111-48300-001.sip.ld
+0924194703|copy |3|00|[performRedundant] proxy mode '7'
+0924194703|copy |4|00|[parseProxyInfo] Proxy mode '7', file path '/ffs0/boot_prov.proxies'
+0924194703|copy |4|00|[parseProxyInfo] Proxy file does not exist. Proxy mode is '7'
+0924194703|copy |3|00|[findProxy] Find proxy status '0', mode '7'
+0924194703|copy |3|00|[connectToProxy] Using DIRECT proxy for mode '7'
+0924194703|copy |3|00|'https://PlcmSpIp:****@sipconf.8x8pilot.com/polycomuc/598/3111-48300-001.sip.ld' from 'sipconf.8x8pilot.com(158.101.41.169)'
+0924194703|copy |3|00|cfgProvSrvTypeGet()[2]
+0924194704|cfg  |3|00|New load header information:
+0924194704|cfg  |3|00|Code length:         0x02DCC468
+0924194704|cfg  |3|00|Code Checksum:       0x2EE1EEF6
+0924194704|cfg  |3|00|Options:             0x00000080
+0924194704|cfg  |3|00|Recognized container image
+0924194704|cfg  |3|00|New load header information:
+0924194704|cfg  |3|00|Code length:         0x007CAB9C
+0924194704|cfg  |3|00|Code Checksum:       0x40579EC4
+0924194704|cfg  |3|00|Options:             0x00000010
+0924194704|cfg  |3|00|Updater header is different
+0924194704|cfg  |3|00|Updater in container image 1 is different
+0924194704|cfg  |3|00|New load header information:
+0924194704|cfg  |3|00|Code length:         0x02600B2C
+0924194704|cfg  |3|00|Code Checksum:       0x2EE0FB9B
+0924194704|cfg  |3|00|Options:             0x00000002
+0924194704|cfg  |3|00|Application header is different
+0924194704|cfg  |3|00|Application in container image 2 is different
+0924194704|cfg  |3|00|Using Updater
+0924194704|cfg  |*|00|Prov|Updating the Updater
+0924194704|cfg  |3|00|Using compatible image 0
+0924194704|sig  |*|00|Initial log entry. Current logging level 3
+0924194704|sig  |3|00|hwSigParseHeader: found key Sig_3.
+0924194704|sig  |3|00|hwSigParseHeader: found key Sig_7.
+0924194709|copy |3|00|buffered_write: transfer terminated
+0924194709|copy |3|00|UtilCopyC::performCurl status data is:avgUploadSpeed(0.000000), uploadSize(0.000000), connTime(0.560016), totalTime(5.578626), ftpEntryPath(NULL)
+0924194709|copy |3|00|Download of 'polycomuc/598/3111-48300-001.sip.ld' succeeded on attempt 1 (addr 1 of 1)
+0924194709|cfg  |3|00|Good image signature
+0924194709|cfg  |3|00|Resilient SW Upgrade is off, Using Legacy Upgrade process. 
+0924194709|cfg  |3|00|Programming Updater from sector 320 to 575
+0924194714|cfg  |3|00|Programming to sector 320 complete
+0924194716|cfg  |*|00|Prov|Image has been changed
+0924194716|app1 |*|00|Image changed
+0924194716|app1 |*|00|Uploading boot log, time is Thu Sep 24 19:47:16 2026
+
+0924194716|cfg  |*|00|Prov|Provisioning needs to reboot to upgrade image(s)
+0924194716|cfg  |*|00|Prov|Finished updating configuration
+0924194716|copy |3|00|[performRedundant] proxy mode '7'
+0924194716|copy |4|00|[parseProxyInfo] Proxy mode '7', file path '/ffs0/boot_prov.proxies'
+0924194716|copy |4|00|[parseProxyInfo] Proxy file does not exist. Proxy mode is '7'
+0924194716|copy |3|00|[findProxy] Find proxy status '0', mode '7'
+0924194716|copy |3|00|[connectToProxy] Using DIRECT proxy for mode '7'
+0924194716|copy |3|00|'https://PlcmSpIp:****@sipconf.8x8pilot.com/polycomuc/64167f0082e9-boot.log' to 'sipconf.8x8pilot.com(158.101.41.169)'
+0924194716|copy |3|00|cfgProvSrvTypeGet()[2]
+0924194716|copy |3|00|Upload of 'polycomuc/64167f0082e9-boot.log' FAILED on attempt 1 (addr 1 of 1)
+0924194716|copy |3|00|transport res: 27 respCode 0. transport error: Out of memory. transport error buffer: SSL: couldn't create a context!.
+0924194716|log  |4|00|UtilLogC::uploadFifoLog: upload error. protocol 0 result = -1
+000007.717|so   |*|00|---------- Initial log entry ----------
+000007.717|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.718|boot |*|00|Initial log entry. Current logging level 3
+000007.718|copy |*|00|Initial log entry. Current logging level 3
+000007.718|utilm|*|00|Initial log entry. Current logging level 4
+000007.718|hw   |*|00|Initial log entry. Current logging level 4
+000007.718|ethf |*|00|Initial log entry. Current logging level 4
+000007.718|dns  |*|00|Initial log entry. Current logging level 3
+000007.718|curl |*|00|Initial log entry. Current logging level 3
+000007.718|sec  |*|00|Initial log entry. Current logging level 4
+000007.726|wdog |*|00|Initial log entry. Current logging level 4
+000007.726|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.726|lldp |*|00|Initial log entry. Current logging level 3
+000007.726|cdp  |*|00|Initial log entry. Current logging level 3
+000007.726|key  |*|00|Initial log entry. Current logging level 4
+000007.726|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.761|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.761|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.761|so   |*|00|Platform: MAC=64167f0082e9
+000007.762|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.762|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.762|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.762|so   |*|00|Application, main: P/N=3150-11069-598
+000007.762|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.763|so   |*|00|PoE-Type-2 is detected
+000007.763|log  |*|00|Install file upload callback for 'Updater'
+
+000007.763|app1 |*|00|Initial log entry. Current logging level 3
+000007.771|cfg  |*|00|Initial log entry. Current logging level 2
+000007.804|dot1x|*|00|Initial log entry. Current logging level 3
+000007.804|app1 |3|00|Starting provisioning because of the start type.
+000007.948|tls  |*|00|Initial log entry. Current logging level 4
+000008.721|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.970|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000017.017|lldp |3|00|lldpLinkUp: LLDP received a response from a switch. LLDP enabled.
+000017.070|dhcpc|*|00|Initial log entry. Current logging level 2
+000017.071|dhcpc|3|00|dhcAddIf v4 succeeds: eth0.
+000017.074|dhcpc|3|00|dhcRebind v4 on eth0: Will wait until sync rebind completes.
+000017.662|dhcpc|3|00|dhcListener: Read succeeds: state:
+.
+000017.664|dhcpc|3|00|relLease(0) v4: Succeeded on (null) to fork dhclient to terminate.
+000018.256|dhcpc|3|00|dhcListener: Read succeeds: eth0 state: PREINIT
+.
+000018.256|dhcpc|4|00|DhcpClient::processLine: no callback for state 1 if eth0
+000019.411|dhcpc|3|00|dhcListener: Read succeeds: eth0 ip: 192.168.1.152
+.
+000019.411|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: subnet-mask 255.255.255.0
+.
+000019.412|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: routers 192.168.1.1
+.
+000019.413|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: domain-name-servers 192.168.1.1
+.
+000019.414|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-lease-time 86400
+.
+000019.415|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-server-identifier 192.168.1.1
+.
+000019.418|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: broadcast-address 192.168.1.255
+.
+000019.421|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-lease-time 86400
+.
+000019.422|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-message-type 5
+.
+000019.423|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp-renewal-time 43200
+.
+000019.423|dhcpc|3|00|dhcListener: Read succeeds: eth0 option: dhcp_rebinding_time 75600
+.
+000019.444|dhcpc|3|00|dhcListener: Read succeeds: eth0 state: BOUND
+.
+000019.444|dhcpc|4|00|DhcpClient::processLine: no callback for state 2 if eth0
+000019.445|dhcpc|3|00|Program eth0 to use subnet mask 255.255.255.0, result -1.
+000019.446|dhcpc|3|00|Program eth0 to use ip address 192.168.1.152, result 0.
+000019.446|dhcpc|3|00|Program eth0 to use router 192.168.1.1, result 0.
+000019.455|dhcpc|3|00|getLease v4: Succeeded to fork dhclient for interface eth0.
+000020.451|ares |*|00|Initial log entry. Current logging level 3
+000020.452|ares |4|00|invalid ip address for DNS server
+000020.452|dns  |*|00|DNS resolver servers are '192.168.1.1' ''
+000020.452|dns  |*|00|DNS resolver search domain is ''
+000020.452|app1 |3|00|DNS resolver server is '192.168.1.1'
+000020.452|app1 |3|00|DNS resolver search domain is ''
+000020.462|app1 |3|00|DHCP returned result 0x87 from server 192.168.1.1.
+000020.462|app1 |3|00|   Phone IPv4 address is 192.168.1.152.
+000020.462|app1 |3|00|   Subnet mask is 255.255.255.0.
+000020.462|app1 |3|00|   Gateway address is 192.168.1.1.
+000020.462|app1 |3|00|   DNS server is 192.168.1.1
+000020.463|app1 |4|00|Could not load time from  (0.0.0.0).
+000020.805|cfg  |*|00|Prov|Starting to provision
+000020.839|cfg  |3|00|Prov|Starting to download file 64167f0082e9.cfg
+000020.840|copy |3|00|[performRedundant] proxy mode '7'
+000020.842|copy |4|00|[parseProxyInfo] Proxy mode '7', file path '/ffs0/boot_prov.proxies'
+000020.843|copy |4|00|[parseProxyInfo] Proxy file does not exist. Proxy mode is '7'
+000020.843|copy |3|00|[findProxy] Find proxy status '0', mode '7'
+000020.843|copy |3|00|[connectToProxy] Using DIRECT proxy for mode '7'
+000020.843|copy |3|00|'https://PlcmSpIp:****@sipconf.8x8pilot.com/polycomuc/64167f0082e9.cfg' from 'sipconf.8x8pilot.com(158.101.41.169)'
+000020.843|copy |3|00|cfgProvSrvTypeGet()[3]
+000021.545|copy |3|00|UtilCopyC::performCurl status data is:avgUploadSpeed(0.000000), uploadSize(0.000000), connTime(0.567485), totalTime(0.702162), ftpEntryPath(NULL)
+000021.546|copy |3|00|Download of 'polycomuc/64167f0082e9.cfg' succeeded on attempt 1 (addr 1 of 1)
+000021.546|cfg  |3|00|Prov|Updated file 64167f0082e9.cfg
+000021.568|cfg  |*|00|Prov|Starting to update 598/3111-48300-001.sip.ld
+000021.575|copy |3|00|[performRedundant] proxy mode '7'
+000021.576|copy |4|00|[parseProxyInfo] Proxy mode '7', file path '/ffs0/boot_prov.proxies'
+000021.576|copy |4|00|[parseProxyInfo] Proxy file does not exist. Proxy mode is '7'
+000021.576|copy |3|00|[findProxy] Find proxy status '0', mode '7'
+000021.576|copy |3|00|[connectToProxy] Using DIRECT proxy for mode '7'
+000021.576|copy |3|00|'https://PlcmSpIp:****@sipconf.8x8pilot.com/polycomuc/598/3111-48300-001.sip.ld' from 'sipconf.8x8pilot.com(158.101.41.169)'
+000021.576|copy |3|00|cfgProvSrvTypeGet()[3]
+000022.401|cfg  |3|00|New load header information:
+000022.401|cfg  |3|00|Code length:         0x02DCC468
+000022.401|cfg  |3|00|Code Checksum:       0x2EE1EEF6
+000022.401|cfg  |3|00|Options:             0x00000080
+000022.432|cfg  |3|00|Recognized container image
+000022.432|cfg  |3|00|New load header information:
+000022.432|cfg  |3|00|Code length:         0x007CAB9C
+000022.432|cfg  |3|00|Code Checksum:       0x40579EC4
+000022.432|cfg  |3|00|Options:             0x00000010
+000022.434|cfg  |3|00|Updater is already present
+000022.434|cfg  |3|00|Updater in container image 1 is not different
+000022.434|cfg  |3|00|New load header information:
+000022.435|cfg  |3|00|Code length:         0x02600B2C
+000022.435|cfg  |3|00|Code Checksum:       0x2EE0FB9B
+000022.435|cfg  |3|00|Options:             0x00000002
+000022.435|cfg  |3|00|Application header is different
+000022.435|cfg  |3|00|Application in container image 2 is different
+000022.435|cfg  |3|00|Using application
+000123.881|cfg  |*|00|Prov|Updating the Application
+000123.881|cfg  |3|00|Using compatible image 0
+000228.063|copy |3|00|UtilCopyC::performCurl status data is:avgUploadSpeed(0.000000), uploadSize(0.000000), connTime(0.562287), totalTime(126.486894), ftpEntryPath(NULL)
+000228.063|copy |3|00|Download of 'polycomuc/598/3111-48300-001.sip.ld' succeeded on attempt 1 (addr 1 of 1)
+000229.389|sig  |*|00|Initial log entry. Current logging level 3
+000229.389|sig  |3|00|hwSigParseHeader: found key Sig_3.
+000229.391|sig  |3|00|hwSigParseHeader: found key Sig_7.
+000237.358|cfg  |3|00|Good image signature
+000244.759|cfg  |3|00|Stat results are: download 39849616, phone 2336, fs free 168235008
+000244.763|cfg  |3|00|Programming 39849616 bytes into tffs in 4K blocks
+000247.020|cfg  |3|00|Extracting application files
+000247.021|cfg  |3|00|New load header information:
+000247.021|cfg  |3|00|Code length:         0x02600B2C
+000247.021|cfg  |3|00|Code Checksum:       0x2EE0FB9B
+000247.021|cfg  |3|00|Options:             0x00000002
+000429.830|cfg  |3|00|Finished extracting application files (OK)
+000441.923|cfg  |3|00|File system is synchronized
+000442.116|cfg  |*|00|Finished software update
+000442.116|cfg  |*|00|Prov|Succeeded updating file 598/3111-48300-001.sip.ld
+000442.116|cfg  |3|00|clearing cache after CfgProvUpdate Succeeded
+000442.351|cfg  |*|00|Prov|Image has been changed
+000442.369|cfg  |3|00|Prov|Provisioning succeeded
+000442.372|cfg  |*|00|Prov|Finished updating configuration
+000442.373|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000442.375|boot |*|00|Using TFFS for flash load
+000442.375|boot |*|00|Code length:         0x02600B2C
+000442.375|boot |*|00|Code checksum:       0x2EE0FB9B
+000442.612|app1 |4|00|Loaded application 598/sip.ld from local system successfully.
+000442.612|app1 |6|00|Uploading boot log, time is Thu Sep 24 19:51:40 2026
+
+000442.866|copy |3|00|[performRedundant] proxy mode '7'
+000442.869|copy |4|00|[parseProxyInfo] Proxy mode '7', file path '/ffs0/boot_prov.proxies'
+000442.869|copy |4|00|[parseProxyInfo] Proxy file does not exist. Proxy mode is '7'
+000442.869|copy |3|00|[findProxy] Find proxy status '0', mode '7'
+000442.869|copy |3|00|[connectToProxy] Using DIRECT proxy for mode '7'
+000442.869|copy |3|00|'https://PlcmSpIp:****@sipconf.8x8pilot.com/polycomuc/64167f0082e9-boot.log' to 'sipconf.8x8pilot.com(158.101.41.169)'
+000442.869|copy |3|00|cfgProvSrvTypeGet()[3]
+000443.972|copy |3|00|UtilCopyC::performCurl status data is:avgUploadSpeed(23530.000000), uploadSize(25956.000000), connTime(0.582929), totalTime(1.103099), ftpEntryPath(NULL)
+000443.972|copy |3|00|Upload of 'polycomuc/64167f0082e9-boot.log' succeeded on attempt 1 (addr 1 of 1)
+000444.670|dhcpc|3|00|relLease(0) v4: Succeeded on (null) to fork dhclient to terminate.
+000507.695|cfg  |3|00|Prov|Shutting down
+000007.705|so   |*|00|---------- Initial log entry ----------
+000007.705|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.705|boot |*|00|Initial log entry. Current logging level 3
+000007.705|copy |*|00|Initial log entry. Current logging level 3
+000007.705|utilm|*|00|Initial log entry. Current logging level 4
+000007.705|hw   |*|00|Initial log entry. Current logging level 4
+000007.705|ethf |*|00|Initial log entry. Current logging level 4
+000007.706|dns  |*|00|Initial log entry. Current logging level 3
+000007.706|curl |*|00|Initial log entry. Current logging level 3
+000007.706|sec  |*|00|Initial log entry. Current logging level 4
+000007.714|wdog |*|00|Initial log entry. Current logging level 4
+000007.714|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.714|lldp |*|00|Initial log entry. Current logging level 3
+000007.714|cdp  |*|00|Initial log entry. Current logging level 3
+000007.715|key  |*|00|Initial log entry. Current logging level 4
+000007.715|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.751|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.751|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.751|so   |*|00|Platform: MAC=64167f0082e9
+000007.751|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.752|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.752|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.752|so   |*|00|Application, main: P/N=3150-11069-598
+000007.752|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.752|so   |*|00|PoE-Type-2 is detected
+000007.752|log  |*|00|Install file upload callback for 'Updater'
+
+000007.753|app1 |*|00|Initial log entry. Current logging level 3
+000007.761|cfg  |*|00|Initial log entry. Current logging level 2
+000007.800|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.707|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.956|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.759|so   |*|00|---------- Initial log entry ----------
+000007.759|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.759|boot |*|00|Initial log entry. Current logging level 3
+000007.759|copy |*|00|Initial log entry. Current logging level 3
+000007.759|utilm|*|00|Initial log entry. Current logging level 4
+000007.759|hw   |*|00|Initial log entry. Current logging level 4
+000007.759|ethf |*|00|Initial log entry. Current logging level 4
+000007.759|dns  |*|00|Initial log entry. Current logging level 3
+000007.759|curl |*|00|Initial log entry. Current logging level 3
+000007.759|sec  |*|00|Initial log entry. Current logging level 4
+000007.767|wdog |*|00|Initial log entry. Current logging level 4
+000007.768|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.768|lldp |*|00|Initial log entry. Current logging level 3
+000007.768|cdp  |*|00|Initial log entry. Current logging level 3
+000007.768|key  |*|00|Initial log entry. Current logging level 4
+000007.768|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.801|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.801|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.801|so   |*|00|Platform: MAC=64167f0082e9
+000007.801|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.802|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.802|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.802|so   |*|00|Application, main: P/N=3150-11069-598
+000007.803|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.803|so   |*|00|PoE-Type-2 is detected
+000007.803|log  |*|00|Install file upload callback for 'Updater'
+
+000007.803|app1 |*|00|Initial log entry. Current logging level 3
+000007.811|cfg  |*|00|Initial log entry. Current logging level 2
+000007.815|app1 |3|00|Setting the DA reboot flag to cold reboot
+000007.854|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.763|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000013.012|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.763|so   |*|00|---------- Initial log entry ----------
+000007.763|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.763|boot |*|00|Initial log entry. Current logging level 3
+000007.763|copy |*|00|Initial log entry. Current logging level 3
+000007.763|utilm|*|00|Initial log entry. Current logging level 4
+000007.763|hw   |*|00|Initial log entry. Current logging level 4
+000007.763|ethf |*|00|Initial log entry. Current logging level 4
+000007.763|dns  |*|00|Initial log entry. Current logging level 3
+000007.764|curl |*|00|Initial log entry. Current logging level 3
+000007.764|sec  |*|00|Initial log entry. Current logging level 4
+000007.772|wdog |*|00|Initial log entry. Current logging level 4
+000007.772|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.772|lldp |*|00|Initial log entry. Current logging level 3
+000007.772|cdp  |*|00|Initial log entry. Current logging level 3
+000007.772|key  |*|00|Initial log entry. Current logging level 4
+000007.772|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.811|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.811|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.811|so   |*|00|Platform: MAC=64167f0082e9
+000007.811|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.812|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.812|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.812|so   |*|00|Application, main: P/N=3150-11069-598
+000007.812|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.812|so   |*|00|PoE-Type-2 is detected
+000007.812|log  |*|00|Install file upload callback for 'Updater'
+
+000007.813|app1 |*|00|Initial log entry. Current logging level 3
+000007.821|cfg  |*|00|Initial log entry. Current logging level 2
+000007.823|app1 |3|00|Setting the DA reboot flag to cold reboot
+000007.861|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.766|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000013.015|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.931|so   |*|00|---------- Initial log entry ----------
+000007.931|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.931|boot |*|00|Initial log entry. Current logging level 3
+000007.931|copy |*|00|Initial log entry. Current logging level 3
+000007.931|utilm|*|00|Initial log entry. Current logging level 4
+000007.931|hw   |*|00|Initial log entry. Current logging level 4
+000007.931|ethf |*|00|Initial log entry. Current logging level 4
+000007.932|dns  |*|00|Initial log entry. Current logging level 3
+000007.932|curl |*|00|Initial log entry. Current logging level 3
+000007.932|sec  |*|00|Initial log entry. Current logging level 4
+000007.940|wdog |*|00|Initial log entry. Current logging level 4
+000007.940|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.940|lldp |*|00|Initial log entry. Current logging level 3
+000007.940|cdp  |*|00|Initial log entry. Current logging level 3
+000007.940|key  |*|00|Initial log entry. Current logging level 4
+000007.940|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.971|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.971|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.971|so   |*|00|Platform: MAC=64167f0082e9
+000007.971|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.972|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.972|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.972|so   |*|00|Application, main: P/N=3150-11069-598
+000007.972|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.972|so   |*|00|PoE-Type-2 is detected
+000007.972|log  |*|00|Install file upload callback for 'Updater'
+
+000007.973|app1 |*|00|Initial log entry. Current logging level 3
+000007.981|cfg  |*|00|Initial log entry. Current logging level 2
+000007.983|app1 |3|00|Setting the DA reboot flag to cold reboot
+000008.022|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.934|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000013.183|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.921|so   |*|00|---------- Initial log entry ----------
+000007.921|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.921|boot |*|00|Initial log entry. Current logging level 3
+000007.921|copy |*|00|Initial log entry. Current logging level 3
+000007.921|utilm|*|00|Initial log entry. Current logging level 4
+000007.921|hw   |*|00|Initial log entry. Current logging level 4
+000007.921|ethf |*|00|Initial log entry. Current logging level 4
+000007.921|dns  |*|00|Initial log entry. Current logging level 3
+000007.922|curl |*|00|Initial log entry. Current logging level 3
+000007.922|sec  |*|00|Initial log entry. Current logging level 4
+000007.930|wdog |*|00|Initial log entry. Current logging level 4
+000007.930|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.930|lldp |*|00|Initial log entry. Current logging level 3
+000007.930|cdp  |*|00|Initial log entry. Current logging level 3
+000007.930|key  |*|00|Initial log entry. Current logging level 4
+000007.930|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.961|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.961|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.961|so   |*|00|Platform: MAC=64167f0082e9
+000007.961|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.962|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.962|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.962|so   |*|00|Application, main: P/N=3150-11069-598
+000007.962|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.962|so   |*|00|PoE-Type-2 is detected
+000007.962|log  |*|00|Install file upload callback for 'Updater'
+
+000007.963|app1 |*|00|Initial log entry. Current logging level 3
+000007.971|cfg  |*|00|Initial log entry. Current logging level 2
+000007.973|app1 |3|00|Setting the DA reboot flag to cold reboot
+000008.011|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.926|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000013.175|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.704|so   |*|00|---------- Initial log entry ----------
+000007.704|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.704|boot |*|00|Initial log entry. Current logging level 3
+000007.704|copy |*|00|Initial log entry. Current logging level 3
+000007.704|utilm|*|00|Initial log entry. Current logging level 4
+000007.704|hw   |*|00|Initial log entry. Current logging level 4
+000007.705|ethf |*|00|Initial log entry. Current logging level 4
+000007.705|dns  |*|00|Initial log entry. Current logging level 3
+000007.705|curl |*|00|Initial log entry. Current logging level 3
+000007.705|sec  |*|00|Initial log entry. Current logging level 4
+000007.713|wdog |*|00|Initial log entry. Current logging level 4
+000007.713|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.713|lldp |*|00|Initial log entry. Current logging level 3
+000007.713|cdp  |*|00|Initial log entry. Current logging level 3
+000007.713|key  |*|00|Initial log entry. Current logging level 4
+000007.713|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.751|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.751|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.751|so   |*|00|Platform: MAC=64167f0082e9
+000007.751|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.752|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.752|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.752|so   |*|00|Application, main: P/N=3150-11069-598
+000007.752|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.753|so   |*|00|PoE-Type-2 is detected
+000007.753|log  |*|00|Install file upload callback for 'Updater'
+
+000007.753|app1 |*|00|Initial log entry. Current logging level 3
+000007.761|cfg  |*|00|Initial log entry. Current logging level 2
+000007.763|app1 |3|00|Setting the DA reboot flag to cold reboot
+000007.802|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.708|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.957|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.739|so   |*|00|---------- Initial log entry ----------
+000007.739|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.739|boot |*|00|Initial log entry. Current logging level 3
+000007.739|copy |*|00|Initial log entry. Current logging level 3
+000007.740|utilm|*|00|Initial log entry. Current logging level 4
+000007.740|hw   |*|00|Initial log entry. Current logging level 4
+000007.740|ethf |*|00|Initial log entry. Current logging level 4
+000007.740|dns  |*|00|Initial log entry. Current logging level 3
+000007.740|curl |*|00|Initial log entry. Current logging level 3
+000007.740|sec  |*|00|Initial log entry. Current logging level 4
+000007.748|wdog |*|00|Initial log entry. Current logging level 4
+000007.748|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.748|lldp |*|00|Initial log entry. Current logging level 3
+000007.748|cdp  |*|00|Initial log entry. Current logging level 3
+000007.749|key  |*|00|Initial log entry. Current logging level 4
+000007.749|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.781|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.781|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.781|so   |*|00|Platform: MAC=64167f0082e9
+000007.782|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.782|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.782|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.782|so   |*|00|Application, main: P/N=3150-11069-598
+000007.783|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.783|so   |*|00|PoE-Type-2 is detected
+000007.783|log  |*|00|Install file upload callback for 'Updater'
+
+000007.784|app1 |*|00|Initial log entry. Current logging level 3
+000007.791|cfg  |*|00|Initial log entry. Current logging level 2
+000007.830|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.742|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.991|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.691|so   |*|00|---------- Initial log entry ----------
+000007.691|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.691|boot |*|00|Initial log entry. Current logging level 3
+000007.692|copy |*|00|Initial log entry. Current logging level 3
+000007.692|utilm|*|00|Initial log entry. Current logging level 4
+000007.692|hw   |*|00|Initial log entry. Current logging level 4
+000007.692|ethf |*|00|Initial log entry. Current logging level 4
+000007.692|dns  |*|00|Initial log entry. Current logging level 3
+000007.692|curl |*|00|Initial log entry. Current logging level 3
+000007.692|sec  |*|00|Initial log entry. Current logging level 4
+000007.700|wdog |*|00|Initial log entry. Current logging level 4
+000007.700|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.701|lldp |*|00|Initial log entry. Current logging level 3
+000007.701|cdp  |*|00|Initial log entry. Current logging level 3
+000007.701|key  |*|00|Initial log entry. Current logging level 4
+000007.701|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.731|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.731|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.731|so   |*|00|Platform: MAC=64167f0082e9
+000007.731|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.732|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.732|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.732|so   |*|00|Application, main: P/N=3150-11069-598
+000007.732|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.732|so   |*|00|PoE-Type-2 is detected
+000007.732|log  |*|00|Install file upload callback for 'Updater'
+
+000007.733|app1 |*|00|Initial log entry. Current logging level 3
+000007.741|cfg  |*|00|Initial log entry. Current logging level 2
+000007.781|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.697|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.946|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.713|so   |*|00|---------- Initial log entry ----------
+000007.713|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.713|boot |*|00|Initial log entry. Current logging level 3
+000007.713|copy |*|00|Initial log entry. Current logging level 3
+000007.713|utilm|*|00|Initial log entry. Current logging level 4
+000007.713|hw   |*|00|Initial log entry. Current logging level 4
+000007.713|ethf |*|00|Initial log entry. Current logging level 4
+000007.713|dns  |*|00|Initial log entry. Current logging level 3
+000007.713|curl |*|00|Initial log entry. Current logging level 3
+000007.713|sec  |*|00|Initial log entry. Current logging level 4
+000007.722|wdog |*|00|Initial log entry. Current logging level 4
+000007.722|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.722|lldp |*|00|Initial log entry. Current logging level 3
+000007.722|cdp  |*|00|Initial log entry. Current logging level 3
+000007.722|key  |*|00|Initial log entry. Current logging level 4
+000007.722|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.751|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.751|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.751|so   |*|00|Platform: MAC=64167f0082e9
+000007.751|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.752|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.752|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.752|so   |*|00|Application, main: P/N=3150-11069-598
+000007.752|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.752|so   |*|00|PoE-Type-2 is detected
+000007.752|log  |*|00|Install file upload callback for 'Updater'
+
+000007.753|app1 |*|00|Initial log entry. Current logging level 3
+000007.761|cfg  |*|00|Initial log entry. Current logging level 2
+000007.763|app1 |3|00|Setting the DA reboot flag to cold reboot
+000007.802|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.717|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.966|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.695|so   |*|00|---------- Initial log entry ----------
+000007.695|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.695|boot |*|00|Initial log entry. Current logging level 3
+000007.695|copy |*|00|Initial log entry. Current logging level 3
+000007.695|utilm|*|00|Initial log entry. Current logging level 4
+000007.695|hw   |*|00|Initial log entry. Current logging level 4
+000007.695|ethf |*|00|Initial log entry. Current logging level 4
+000007.695|dns  |*|00|Initial log entry. Current logging level 3
+000007.696|curl |*|00|Initial log entry. Current logging level 3
+000007.696|sec  |*|00|Initial log entry. Current logging level 4
+000007.704|wdog |*|00|Initial log entry. Current logging level 4
+000007.704|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.704|lldp |*|00|Initial log entry. Current logging level 3
+000007.704|cdp  |*|00|Initial log entry. Current logging level 3
+000007.704|key  |*|00|Initial log entry. Current logging level 4
+000007.704|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.741|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.741|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.741|so   |*|00|Platform: MAC=64167f0082e9
+000007.742|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.742|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.742|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.742|so   |*|00|Application, main: P/N=3150-11069-598
+000007.742|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.743|so   |*|00|PoE-Type-2 is detected
+000007.743|log  |*|00|Install file upload callback for 'Updater'
+
+000007.743|app1 |*|00|Initial log entry. Current logging level 3
+000007.751|cfg  |*|00|Initial log entry. Current logging level 2
+000007.753|app1 |3|00|Setting the DA reboot flag to cold reboot
+000007.790|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.699|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.948|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.738|so   |*|00|---------- Initial log entry ----------
+000007.738|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.738|boot |*|00|Initial log entry. Current logging level 3
+000007.738|copy |*|00|Initial log entry. Current logging level 3
+000007.738|utilm|*|00|Initial log entry. Current logging level 4
+000007.738|hw   |*|00|Initial log entry. Current logging level 4
+000007.738|ethf |*|00|Initial log entry. Current logging level 4
+000007.739|dns  |*|00|Initial log entry. Current logging level 3
+000007.739|curl |*|00|Initial log entry. Current logging level 3
+000007.739|sec  |*|00|Initial log entry. Current logging level 4
+000007.747|wdog |*|00|Initial log entry. Current logging level 4
+000007.747|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.747|lldp |*|00|Initial log entry. Current logging level 3
+000007.747|cdp  |*|00|Initial log entry. Current logging level 3
+000007.747|key  |*|00|Initial log entry. Current logging level 4
+000007.747|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.781|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.781|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.781|so   |*|00|Platform: MAC=64167f0082e9
+000007.782|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.782|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.782|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.782|so   |*|00|Application, main: P/N=3150-11069-598
+000007.783|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.783|so   |*|00|PoE-Type-2 is detected
+000007.783|log  |*|00|Install file upload callback for 'Updater'
+
+000007.783|app1 |*|00|Initial log entry. Current logging level 3
+000007.791|cfg  |*|00|Initial log entry. Current logging level 2
+000007.793|app1 |3|00|Setting the DA reboot flag to cold reboot
+000007.830|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.742|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.992|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.741|so   |*|00|---------- Initial log entry ----------
+000007.741|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.741|boot |*|00|Initial log entry. Current logging level 3
+000007.741|copy |*|00|Initial log entry. Current logging level 3
+000007.741|utilm|*|00|Initial log entry. Current logging level 4
+000007.741|hw   |*|00|Initial log entry. Current logging level 4
+000007.741|ethf |*|00|Initial log entry. Current logging level 4
+000007.741|dns  |*|00|Initial log entry. Current logging level 3
+000007.742|curl |*|00|Initial log entry. Current logging level 3
+000007.742|sec  |*|00|Initial log entry. Current logging level 4
+000007.749|wdog |*|00|Initial log entry. Current logging level 4
+000007.750|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.750|lldp |*|00|Initial log entry. Current logging level 3
+000007.750|cdp  |*|00|Initial log entry. Current logging level 3
+000007.750|key  |*|00|Initial log entry. Current logging level 4
+000007.750|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.781|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.781|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.781|so   |*|00|Platform: MAC=64167f0082e9
+000007.781|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.782|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.782|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.782|so   |*|00|Application, main: P/N=3150-11069-598
+000007.782|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.782|so   |*|00|PoE-Type-2 is detected
+000007.783|log  |*|00|Install file upload callback for 'Updater'
+
+000007.783|app1 |*|00|Initial log entry. Current logging level 3
+000007.791|cfg  |*|00|Initial log entry. Current logging level 2
+000007.793|app1 |3|00|Setting the DA reboot flag to cold reboot
+000007.830|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.744|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.994|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.734|so   |*|00|---------- Initial log entry ----------
+000007.734|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.734|boot |*|00|Initial log entry. Current logging level 3
+000007.734|copy |*|00|Initial log entry. Current logging level 3
+000007.734|utilm|*|00|Initial log entry. Current logging level 4
+000007.734|hw   |*|00|Initial log entry. Current logging level 4
+000007.734|ethf |*|00|Initial log entry. Current logging level 4
+000007.734|dns  |*|00|Initial log entry. Current logging level 3
+000007.735|curl |*|00|Initial log entry. Current logging level 3
+000007.735|sec  |*|00|Initial log entry. Current logging level 4
+000007.743|wdog |*|00|Initial log entry. Current logging level 4
+000007.743|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.743|lldp |*|00|Initial log entry. Current logging level 3
+000007.743|cdp  |*|00|Initial log entry. Current logging level 3
+000007.743|key  |*|00|Initial log entry. Current logging level 4
+000007.743|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.781|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.781|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.781|so   |*|00|Platform: MAC=64167f0082e9
+000007.781|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.782|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.782|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.782|so   |*|00|Application, main: P/N=3150-11069-598
+000007.782|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.783|so   |*|00|PoE-Type-2 is detected
+000007.783|log  |*|00|Install file upload callback for 'Updater'
+
+000007.783|app1 |*|00|Initial log entry. Current logging level 3
+000007.791|cfg  |*|00|Initial log entry. Current logging level 2
+000007.793|app1 |3|00|Setting the DA reboot flag to cold reboot
+000007.830|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.738|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.987|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.690|so   |*|00|---------- Initial log entry ----------
+000007.690|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.690|boot |*|00|Initial log entry. Current logging level 3
+000007.690|copy |*|00|Initial log entry. Current logging level 3
+000007.690|utilm|*|00|Initial log entry. Current logging level 4
+000007.690|hw   |*|00|Initial log entry. Current logging level 4
+000007.691|ethf |*|00|Initial log entry. Current logging level 4
+000007.691|dns  |*|00|Initial log entry. Current logging level 3
+000007.691|curl |*|00|Initial log entry. Current logging level 3
+000007.691|sec  |*|00|Initial log entry. Current logging level 4
+000007.699|wdog |*|00|Initial log entry. Current logging level 4
+000007.699|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.699|lldp |*|00|Initial log entry. Current logging level 3
+000007.699|cdp  |*|00|Initial log entry. Current logging level 3
+000007.699|key  |*|00|Initial log entry. Current logging level 4
+000007.699|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.731|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.731|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.731|so   |*|00|Platform: MAC=64167f0082e9
+000007.731|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.732|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.732|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.732|so   |*|00|Application, main: P/N=3150-11069-598
+000007.732|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.732|so   |*|00|PoE-Type-2 is detected
+000007.732|log  |*|00|Install file upload callback for 'Updater'
+
+000007.733|app1 |*|00|Initial log entry. Current logging level 3
+000007.741|cfg  |*|00|Initial log entry. Current logging level 2
+000007.780|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.694|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.943|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.752|so   |*|00|---------- Initial log entry ----------
+000007.752|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.752|boot |*|00|Initial log entry. Current logging level 3
+000007.752|copy |*|00|Initial log entry. Current logging level 3
+000007.752|utilm|*|00|Initial log entry. Current logging level 4
+000007.752|hw   |*|00|Initial log entry. Current logging level 4
+000007.752|ethf |*|00|Initial log entry. Current logging level 4
+000007.752|dns  |*|00|Initial log entry. Current logging level 3
+000007.752|curl |*|00|Initial log entry. Current logging level 3
+000007.752|sec  |*|00|Initial log entry. Current logging level 4
+000007.760|wdog |*|00|Initial log entry. Current logging level 4
+000007.761|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.761|lldp |*|00|Initial log entry. Current logging level 3
+000007.761|cdp  |*|00|Initial log entry. Current logging level 3
+000007.761|key  |*|00|Initial log entry. Current logging level 4
+000007.761|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.791|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.791|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.791|so   |*|00|Platform: MAC=64167f0082e9
+000007.791|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.792|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.792|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.792|so   |*|00|Application, main: P/N=3150-11069-598
+000007.792|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.792|so   |*|00|PoE-Type-2 is detected
+000007.792|log  |*|00|Install file upload callback for 'Updater'
+
+000007.793|app1 |*|00|Initial log entry. Current logging level 3
+000007.801|cfg  |*|00|Initial log entry. Current logging level 2
+000007.840|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.756|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000013.005|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
+000007.720|so   |*|00|---------- Initial log entry ----------
+000007.720|so   |*|00|+++ Note that Updater log times are in GMT +++
+000007.720|boot |*|00|Initial log entry. Current logging level 3
+000007.720|copy |*|00|Initial log entry. Current logging level 3
+000007.720|utilm|*|00|Initial log entry. Current logging level 4
+000007.720|hw   |*|00|Initial log entry. Current logging level 4
+000007.720|ethf |*|00|Initial log entry. Current logging level 4
+000007.720|dns  |*|00|Initial log entry. Current logging level 3
+000007.720|curl |*|00|Initial log entry. Current logging level 3
+000007.720|sec  |*|00|Initial log entry. Current logging level 4
+000007.728|wdog |*|00|Initial log entry. Current logging level 4
+000007.728|wdog |*|00|Hw Watchdog timer interface opened successfully from polyupdater
+000007.728|lldp |*|00|Initial log entry. Current logging level 3
+000007.728|cdp  |*|00|Initial log entry. Current logging level 3
+000007.728|key  |*|00|Initial log entry. Current logging level 4
+000007.728|so   |3|00|SoKeyC::keyboardSetup(): Assigning virtual key: hwId 45 soKeyConcordVirtualTab[i].function 53
+000007.761|so   |*|00|Platform: Model=VVX 301, Assembly=3111-48300-001 Rev=A Region=0
+000007.761|so   |*|00|Platform: Board=3111-48300-001 1 0
+000007.761|so   |*|00|Platform: MAC=64167f0082e9
+000007.761|so   |*|00|Platform: BootBlock=3.0.5.0044 (48300-001) 13-Oct-15 16:44
+000007.762|so   |*|00|Platform: BootL1=1.0.0.0013 (48300-001) 13-Oct-15 16:40
+000007.762|so   |*|00|Application, main: Label=Updater, Version=Amber 5.9.8.4127 31-Aug-23 13:08
+000007.762|so   |*|00|Application, main: P/N=3150-11069-598
+000007.763|so   |*|00|Platform: Updater Signature=Release,GPL (00000098)
+000007.763|so   |*|00|PoE-Type-2 is detected
+000007.763|log  |*|00|Install file upload callback for 'Updater'
+
+000007.763|app1 |*|00|Initial log entry. Current logging level 3
+000007.771|cfg  |*|00|Initial log entry. Current logging level 2
+000007.810|app1 |3|00|Application, load: Type=SIP, Version=5.9.8.5760 31-Aug-23 13:24
+000008.723|so   |3|00|Link status is Net up Speed 100 full Duplex, PC down.
+000012.972|so   |3|00|Updating Animation Sequence Done Status to the Polyupdater
